@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="split_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="week_bars">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="week_progress_bars">
+        <item name="background_progress_color">@color/default_bar_background_color</item>
+        <item name="foreground_progress_gradient_colors">@array/gradient_colors</item>
+        <item name="foreground_progress_thickness">8</item>
+        <item name="background_progress_thickness">8</item>
+        <item name="rounded_corner">true</item>
+    </style>
+
+    <style name="lesson_bar">
+        <item name="foreground_progress_thickness">20</item>
+        <item name="background_progress_thickness">20</item>
+        <item name="background_progress_color">#bdbdbd</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="lesson_bar_text">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="principal_tit">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#7B6F38</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="principal_tit_2">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#7B6F38</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+
+    // Chip Styles
+
+    <style name="Widget.AppTheme.Chip.Filter" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.AppTheme.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+        <!--        <item name="chipBackgroundColor">@android:color/white</item>-->
+    </style>
+
+    // Button Styles
+
+    <style name="RoundButton" parent="@style/Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button.IconOnly">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">12dp</item>
+        <item name="android:minHeight">12dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+    </style>
+
+    // Text Styles
+
+    <style name="AttemptListTime" parent="@style/TextAppearance.MaterialComponents.Headline6" />
+
+    <style name="AttemptListText" parent="@style/TextAppearance.MaterialComponents.Headline6" />
+
+    <style name="ExerciseListPhrase" parent="@style/TextAppearance.MaterialComponents.Headline6" />
+
+    <style name="WordListWord" parent="@style/TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ExerciseListResultCorrect" parent="@style/TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/exercise_correct</item>
+    </style>
+
+    <style name="ExerciseListResultIncorrect" parent="@style/TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/exercise_incorrect</item>
+    </style>
+
+    <style name="EmptyViewText" parent="@style/TextAppearance.MaterialComponents.Headline5" />
+
+    <style name="PracticeText" parent="@style/TextAppearance.MaterialComponents.Headline5" />
+
+    <style name="PracticePhrase" parent="@style/PracticeText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    // Statistics Styles
+
+    <style name="StatisticsGroupTitle" parent="@style/TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/statistics_text</item>
+    </style>
+
+    <style name="StatisticsTitle" parent="@style/TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/statistics_text</item>
+    </style>
+
+    <style name="StatisticsValue" parent="@style/TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">@color/statistics_text</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark" />
+
+</resources>

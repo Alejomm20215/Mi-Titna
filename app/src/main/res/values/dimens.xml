@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="spacing_between_hearts">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="xsmall_padding">4dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="large_padding">32dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="xsmall_margin">4dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="large_margin">32dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="button_corner_radius">25dp</dimen>
+    <dimen name="custom_toast_radius">50dp</dimen>
+    <dimen name="custom_toast_shadow_size">4dp</dimen>
+    <dimen name="custom_toast_padding">24dp</dimen>
+    <dimen name="custom_toast_icon_padding">8dp</dimen>
+    <dimen name="dots_indicator_dot_thickness">4dp</dimen>
+    <dimen name="dots_indicator_dot_width">16dp</dimen>
+    <dimen name="dots_indicator_height">24dp</dimen>
+    <dimen name="dots_indicator_padding">32dp</dimen>
+    <dimen name="practice_frame_elevation">2dp</dimen>
+    <dimen name="recycler_fab_padding_bottom">88dp</dimen>
+    <dimen name="shape_button_margin">8dp</dimen>
+    <dimen name="recycler_scroll_to_top_padding_bottom">72dp</dimen>
+    <dimen name="home_stats_progress_top_margin">8dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_results_of_the_week_height">110dp</dimen>
+    <dimen name="exercise_phrase_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,570 @@
+{
+    "created_at": "2022",
+    "modified_at": "2022",
+    "exercises": [
+      {
+        "id": "5e01dcae0e9sf1876yuitr8f",
+        "exercise_number": 1,
+        "title": "Palabras cotidianas",
+        "description": "Palabras cotidianas en Awá Pit",
+        "lessons": [
+          {
+            "id": "5e21dcae8941c246af37ar18d",
+            "lesson_number": 1,
+            "phrase": "Pɨnninsha - Kupul kisha",
+            "phonetics": "Pinninsha - Kuapul kisha",
+            "translation": "Permiso - Por favor",
+            "description": "Palabras cotidianas",
+            "examples": [
+              {
+                "id": "5e01dcae8951c2463a7a914d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              },
+              {
+                "id": "5e01dcae8952c2463a7a014d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              }
+            ]
+          },
+          {
+            "id": "5e01dcdae5f1231f55339af2e",
+            "lesson_number": 2,
+            "phrase": "Puñain - Pailtu",
+            "phonetics": "Puñain - Pailtu",
+            "translation": "Silencio - Terminé",
+            "description": "Palabras cotidianas",
+            "examples": []
+          },
+          {
+            "id": "5e01asdff0059415b22287b6",
+            "lesson_number": 3,
+            "phrase": "Me amtus - Yakiru - Zatchu",
+            "phonetics": "Me amtus - Yakiru - Zatchu",
+            "translation": "Ya vengo - Tengo hambre - Quiero jugar",
+            "description": "Palabras cotidianas",
+            "examples": []
+          },
+          {
+            "id": "5e01dcae786y4578385c8f58",
+            "lesson_number": 4,
+            "phrase": "Paishpa - Tusailne",
+            "phonetics": "Paishpa - Tusailne",
+            "translation": "Chiquillo - No estarán",
+            "description": "Palabras cotidianas",
+            "examples": []
+          },
+          {
+            "id": "5e01dc12er8adb6864408787",
+            "lesson_number": 5,
+            "phrase": "Ishnaka - Pusjultɨt",
+            "phonetics": "Ishnaka - Pusjultɨt",
+            "translation": "Verán - Pisao",
+            "description": "Palabras cotidianas",
+            "examples": []
+          },
+          {
+            "id": "5e10ftaea58adb68678yu790",
+            "lesson_number": 6,
+            "phrase": "Kutɨt - Chui kichu",
+            "phonetics": "Kutɨt - Chui kichu",
+            "translation": "Patiao - Quiero orinar",
+            "description": "Palabras cotidianas",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "5e01dcaasdc0ee949362503c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Por favor</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Kupul kisha",
+            "options": [
+              "kapul ka",
+              "Kupul kisha",
+              "kuku ku",
+              "kakoku"
+            ]
+          },
+          {
+            "id": "5e01dcae812eg232f432ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Silencio</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "puñain",
+            "options": []
+          },
+          {
+            "id": "5e01dcae123gb2c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Paishpa</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Chiquillo",
+            "options": [
+              "Chiquillo",
+              "Chao",
+              "Chicha",
+              "Chaval"
+            ]
+          },
+          {
+            "id": "5e01dcaed612gh27776bad38",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Quiero orinar</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "chui kichu",
+            "options": []
+          },
+          {
+            "id": "5e01dcaed68baafbg48add80",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Zatchu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Quiero jugar",
+            "options": [
+              "Quiero pescar",
+              "Quiero llorar",
+              "Quiero bailar",
+              "Quiero jugar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6e01dcaeghnb490h5ji76y8f",
+        "exercise_number": 2,
+        "title": "Plantas medicinales I",
+        "description": "Plantas medicinales de la región",
+        "lessons": [
+          {
+            "id": "6e01dcae8941cjkj023yt18d",
+            "lesson_number": 1,
+            "phrase": "Malva - Pɨ - Aimpi tɨ",
+            "phonetics": "Malva - Pɨ - Aimpi tɨ",
+            "translation": "Malva - Achiote - Sangre grado",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "2ef1dcae5f3g8112rlk9ac4t",
+            "lesson_number": 2,
+            "phrase": "Santatamaria kɨh - Pronto alivio",
+            "phonetics": "Santatamaria kɨh - Pronto alivio",
+            "translation": "Hoja de Santamaría - Pronto alivio",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "6e01dcaef115931amnkñpob6",
+            "lesson_number": 3,
+            "phrase": "Mazain ampu - Utta apɨtmu - Zɨma",
+            "phonetics": "Mazain ampu - Utta apɨtmu - Zɨma",
+            "translation": "Hombre solo - Chanca piedra - Estrella",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "6e01dcae5koinm7828528fh9",
+            "lesson_number": 4,
+            "phrase": "Tishtul - Pialpena - Virdulaga",
+            "phonetics": "Tishtul - Pialpena - Virdulaga",
+            "translation": "Limonsillo - Verbena - Verdolaga",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "6e11doisasboiu7yt4408721",
+            "lesson_number": 5,
+            "phrase": "Mintha - Albaka - Castillo",
+            "phonetics": "Mintha - Albaka - Castillo",
+            "translation": "Menta - Albaca - Costillo",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "6e01dckra6knkh9864j0kjo8",
+            "lesson_number": 6,
+            "phrase": "Karoño - Palapcha - Chitmu tɨ",
+            "phonetics": "Karoño - Palapcha - Chitmu tɨ",
+            "translation": "Caraño - LLarumo - El nacedero",
+            "description": "Plantas medicinales",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "6e01d2fegjmkjhjk9762503c",
+            "question_number": 1,
+            "question": "¿Qué significa <b>Pɨ</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Achiote",
+            "options": [
+              "Cebolla",
+              "Maíz",
+              "Achiote",
+              "Achiotosh"
+            ]
+          },
+          {
+            "id": "8mkldcae874kinmrf432ecde",
+            "question_number": 2,
+            "question": "¿Qué significa <b>Palapcha</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "Llarumo",
+            "options": []
+          },
+          {
+            "id": "6e1tdcae0803bhnfb63ce325",
+            "question_number": 3,
+            "question": "¿Qué significa <b>Mintha</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Menta",
+            "options": [
+              "Menta",
+              "Albaca",
+              "Mamá",
+              "Perro"
+            ]
+          },
+          {
+            "id": "6e01dtued67mkhju986bad96",
+            "question_number": 4,
+            "question": "¿Qué significa <b>Virdulaga</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "verdolaga",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "7e01dcae0mnbv1085kiue32d",
+        "exercise_number": 3,
+        "title": "Reptiles I",
+        "description": "Nombra a los reptiles en Awá pit",
+        "lessons": [
+          {
+            "id": "7e01dcae1255624nhkiu128d",
+            "lesson_number": 1,
+            "phrase": "Piantɨ - Panyail",
+            "phonetics": "Piantɨ - Panyail",
+            "translation": "Iguana - Cachirri",
+            "description": "Los reptiles en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaenbgc12yui759ac4e",
+            "lesson_number": 2,
+            "phrase": "Tortuga - Coco tort",
+            "phonetics": "Tortuga - Coco tort",
+            "translation": "Cocorroi - Coco tortuga",
+            "description": "Los reptiles en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaeasgs9h7tbloip9b6",
+            "lesson_number": 3,
+            "phrase": "Kamarouga",
+            "phonetics": "Kamarouga",
+            "translation": "Camarón",
+            "description": "Los reptiles en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaef22agf14hgt43h3",
+            "lesson_number": 4,
+            "phrase": "Kipu",
+            "phonetics": "Kipu",
+            "translation": "Cangrejo",
+            "description": "Los reptiles en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcjuy7458314hky3h3",
+            "lesson_number": 5,
+            "phrase": "Ankilla",
+            "phonetics": "Ankilla",
+            "translation": "Angilla",
+            "description": "Los reptiles en Awá pit",
+            "examples": []
+          }
+
+        ],
+        "quiz": [
+          {
+            "id": "7e01ddiu89701e949t42503d",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Cachirri</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "panyail",
+            "options": []
+          },
+          {
+            "id": "7e01dcae8asbkjiue432ekde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>kipu</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "cangrejo",
+            "options": []
+          },
+          {
+            "id": "7e01dloi8mjhv1c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Ankilla</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Angilla",
+            "options": [
+              "Ango",
+              "Angilla",
+              "gulla",
+              "Angoal"
+            ]
+          },
+          {
+            "id": "7e01dcaehgfb7f20c76kjh5",
+            "question_number": 4,
+            "question": "Escribe la correcta traducción para <b>Coco tort</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "coco tortuga",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "9e01mjh50e9b4101lkjrc8f",
+        "exercise_number": 4,
+        "title": "Animales domésticos",
+        "description": "Nombra a los animales domésticos en Awá pit",
+        "lessons": [
+          {
+            "id": "9e016celkjn2j4elkj87521",
+            "lesson_number": 1,
+            "phrase": "Aɨshtimpu ɨzwaltɨ - Wakara",
+            "phonetics": "Aɨshtimpu ɨzwaltɨ - Wakara",
+            "translation": "Caballo - Vaca",
+            "description": "Animales domésticos",
+            "examples": []
+          },
+          {
+            "id": "9w01asf45f3c5tasf40ac4a",
+            "lesson_number": 2,
+            "phrase": "Oveja - Cabra",
+            "phonetics": "Oveja - Cabra",
+            "translation": "Oveja - Cabra",
+            "description": "Animales domésticos",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1i59315lkjv37b6",
+            "lesson_number": 3,
+            "phrase": "Chibu - Kuzui",
+            "phonetics": "Chibu - Kuzui",
+            "translation": "Chivo - Cerdo",
+            "description": "Animales domésticos",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5jhn617kjh768f51",
+            "lesson_number": 4,
+            "phrase": "Aral",
+            "phonetics": "Aral",
+            "translation": "Gallina",
+            "description": "Animales domésticos",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04das7af60ee9iuo87203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Wakara</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Vaca",
+            "options": [
+              "Gallina",
+              "Loro",
+              "Vaca",
+              "Zorro"
+            ]
+          },
+          {
+            "id": "9e01dcae87b203asd432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Chibu/b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "chivo",
+            "options": []
+          },
+          {
+            "id": "9e0fdtae28jhi8e33f3c2125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Kuzui</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Cerdo",
+            "options": [
+              "Cerdo",
+              "Perro",
+              "Caballo",
+              "Chivo"
+            ]
+          },
+          {
+            "id": "91t1dcakj87b7fasfrebad3a",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Aral</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "gallina",
+            "options": []
+          },
+          {
+            "id": "9e01ac2ed68boiasfr1add8a",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Aɨshtimpu ɨzwaltɨ</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Caballo",
+            "options": [
+              "Caballo",
+              "Lechuza",
+              "Gato",
+              "Cerdo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1e3fgcas0e9b41asjh806agf",
+        "exercise_number": 5,
+        "title": "Plantas medicinales II",
+        "description": "Plantas medicinales de la región",
+        "lessons": [
+          {
+            "id": "9e01dcakiju8kj913a7a021s",
+            "lesson_number": 1,
+            "phrase": "Chiyankua - Chiraran - Ajimbre",
+            "phonetics": "Chiyankua - Chiraran - Ajimbre",
+            "translation": "Chilangua - Chiraran - Jengibre",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5f3c81f5jhnjiu4e",
+            "lesson_number": 2,
+            "phrase": "Citronela - Naɨz Kɨh",
+            "phonetics": "Citronela - Naɨz Kɨh",
+            "translation": "Citronela - Martin Galvis",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaef00mnkkji32287b6",
+            "lesson_number": 3,
+            "phrase": "Ishu kɨtzɨ - Naranjo",
+            "phonetics": "Ishu kɨtzɨ - Naranjo",
+            "translation": "Uña de gato - Naranjo",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5kjhg37hg55c8f54",
+            "lesson_number": 4,
+            "phrase": "Botoncillo - Tishnul",
+            "phonetics": "Botoncillo - Tishnul",
+            "translation": "Botoncillo - Limón",
+            "description": "Plantas medicinales",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaea58adbgf1kjnb777",
+            "lesson_number": 5,
+            "phrase": "Ishu tɨt - Sedro",
+            "phonetcs": "Ishu tɨt - Sedro",
+            "translation": "Tigre guasca - Sedro",
+            "description": "Plantas medicinales",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9e01dcaeaf60ee940906703c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Naranjo</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Naranjo",
+            "options": [
+              "Naranja",
+              "Naranjo",
+              "Toronja",
+              "Narnia"
+            ]
+          },
+          {
+            "id": "9e01dcae8712srlklk42ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Ishu tɨt</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "tigre guasca",
+            "options": []
+          },
+          {
+            "id": "9e01dcae080ghjui4tr6tf25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Naɨz Kɨh</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Martin Galvis",
+            "options": [
+              "Mugre",
+              "Morado",
+              "Martina",
+              "Martin Galvis"
+            ]
+          },
+          {
+            "id": "9e01dcaed67b7ferfp30138",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Ajimbre</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "jengibre",
+            "options": []
+          },
+          {
+            "id": "9e01dcaed68jheypo09qdd80",
+            "question_number": 6,
+            "question": "Selecciona la correcta traducción para <b>Chiyankua</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Chilangua",
+            "options": [
+              "Changos",
+              "Changua",
+              "Chilangua",
+              "Chonas"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,1048 @@
+{
+    "created_at": "2022",
+    "modified_at": "2022",
+    "exercises": [
+      {
+        "id": "5e01dcae0e9sf10ggasd3c8f",
+        "exercise_number": 1,
+        "title": "Presentación personal I",
+        "description": "Comienza a interactuar!",
+        "lessons": [
+          {
+            "id": "5e01dcae8941c246dea7ar18d",
+            "lesson_number": 1,
+            "phrase": "Nane munish",
+            "phonetics": "Nane munish",
+            "translation": "Yo me llamo",
+            "description": "Presentación personal",
+            "examples": [
+              {
+                "id": "5e01dcae8951c2463a7a914d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              },
+              {
+                "id": "5e01dcae8952c2463a7a014d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              }
+            ]
+          },
+          {
+            "id": "5e01dcdae5f3c81f55339af2e",
+            "lesson_number": 2,
+            "phrase": "Ap munne",
+            "phonetics": "Ap munne",
+            "translation": "Mi nombre es",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dcaef0059415b22287b6",
+            "lesson_number": 3,
+            "phrase": "Nane oritoras amtus",
+            "phonetics": "Nane oritoras amtus",
+            "translation": "Yo vengo de orito",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dcae16604578385c8f58",
+            "lesson_number": 4,
+            "phrase": "Aishtaish",
+            "phonetics": "Aishtaish",
+            "translation": "Gracias",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dca4558adb6864408787",
+            "lesson_number": 5,
+            "phrase": "Nune chimun",
+            "phonetics": "Nune chimun",
+            "translation": "¿Usted cómo se llama?",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e10ftaea58adb6864408790",
+            "lesson_number": 6,
+            "phrase": "¿nune mintas?",
+            "phonetics": "¿nune mintas?",
+            "translation": "¿Usted de donde es?",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dtaea98adt6863508777",
+            "lesson_number": 7,
+            "phrase": "¿Nune awa?",
+            "phonetics": "¿Nune awa?",
+            "translation": "¿Usted es Awá?",
+            "description": "Presentación personal",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "5e01dcaeaf60ee949362503c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>¿nune mintas?</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "¿Usted de dónde es?",
+            "options": [
+              "¿Usted es Awá?",
+              "¿Usted cómo se llama?",
+              "¿Usted de dónde es?",
+              "Yo vengo de orito"
+            ]
+          },
+          {
+            "id": "5e01dcae87b20232f432ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Mi nombre es</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "ap munne",
+            "options": []
+          },
+          {
+            "id": "5e01dcae0803b2c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Yo vengo de orito</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Nane oritoras amtus",
+            "options": [
+              "Nane oritoras amtus",
+              "Nune awa",
+              "Nune oritoras am",
+              "Nane awa amtus"
+            ]
+          },
+          {
+            "id": "5e01dcaed67b7f27776bad38",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Gracias</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "aishtaish",
+            "options": []
+          },
+          {
+            "id": "5e01dcaed68baa6ef48add80",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Nane munish</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Yo me llamo",
+            "options": [
+              "Yo me llamo",
+              "Tú te llamas",
+              "¿Usted cómo se llama?",
+              "¿Usted de dónde es?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6e01dcae0e9b41035ji76y8f",
+        "exercise_number": 2,
+        "title": "Animales de la montaña",
+        "description": "Animales que habitan en la montaña (ɨnkal kalparuz )",
+        "lessons": [
+          {
+            "id": "6e01dcae8941cjiu34uyt18d",
+            "lesson_number": 1,
+            "phrase": "Paina ainki - Paina ɨlapa - Pitmu",
+            "phonetics": "Paina ainki - Paina ɨlapa - Pitmu",
+            "translation": "Venado Colorado grande - Venado chonto - Pilmo",
+            "description": "Animales que habitan en la montaña",
+            "examples": []
+          },
+          {
+            "id": "2ef1dcae5f3g8112r332ac4t",
+            "lesson_number": 2,
+            "phrase": "Kukum - Piriku - Waya - Kuiniju",
+            "phonetics": "Kukum - Piriku - Waya - Kuiniju",
+            "translation": "Guara - Perico - Mono - Boruga",
+            "description": "Animales que habitan en la montaña",
+            "examples": []
+          },
+          {
+            "id": "6e01dcaef115931asdf387b6",
+            "lesson_number": 3,
+            "phrase": "Kajucho - Danta tapir - Ishu - Oso",
+            "phonetics": "Kajucho - Danta tapir - Ishu - Oso",
+            "translation": "Cerrillo - Danta - Tigre - Oso",
+            "description": "Animales que habitan en la montaña",
+            "examples": []
+          },
+          {
+            "id": "6e01dcae5kjhuy7828528fh9",
+            "lesson_number": 4,
+            "phrase": "Ulam - Muya Ashampa - Muya ampu",
+            "phonetics": "Ulam - Muya Ashampa - Muya ampu",
+            "translation": "Armadillo - Zorra - Zorro",
+            "description": "Animales que habitan en la montaña",
+            "examples": []
+          },
+          {
+            "id": "6e11dkada58ajiuyt4408721",
+            "lesson_number": 5,
+            "phrase": "Tuña - Kuppa - Pi nutri -Chipu",
+            "phonetics": "Tuña - Kuppa - Pi nutri -Chipu",
+            "translation": "Ratón - Ardilla - Nutria - Gato",
+            "description": "Animales que habitan en la montaña",
+            "examples": []
+          },
+          {
+            "id": "6e01dckra6kiu79864j0y678",
+            "lesson_number": 6,
+            "phrase": "ɨnkal kusha - Zainmu - Im Pilpiram",
+            "phonetics": "ɨnkal kusha - Zainmu - Im Pilpiram",
+            "translation": "Perro salvaje - Zaino - Oso hormiguero",
+            "description": "Animales que habitan en la montaña",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "6e01d2fegf60hhjk9762503c",
+            "question_number": 1,
+            "question": "¿Qué significa <b>Nutria</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Pi nutri",
+            "options": [
+              "Notru",
+              "Pi nutri",
+              "Awea nitu",
+              "Nutri pi"
+            ]
+          },
+          {
+            "id": "8e01dcae8742b21rf432ecde",
+            "question_number": 2,
+            "question": "¿Qué significa <b>Im Pilpiram</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "oso hormiguero",
+            "options": []
+          },
+          {
+            "id": "6e1tdcae0803bjhgb63ce325",
+            "question_number": 3,
+            "question": "¿Qué significa <b>Muya ammpu</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Zorro",
+            "options": [
+              "Zorro",
+              "Perro Salvaje",
+              "Zorro",
+              "Gato"
+            ]
+          },
+          {
+            "id": "6e01dtued67b7kju986bad96",
+            "question_number": 4,
+            "question": "¿Qué significa <b>Ulam</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "armadillo",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "7e01dcae0e9b41085kiue32d",
+        "exercise_number": 3,
+        "title": "Peces",
+        "description": "Nombra a los peces en Awá pit",
+        "lessons": [
+          {
+            "id": "7e01dcae1255624nhkiu128d",
+            "lesson_number": 1,
+            "phrase": "Sapalu - Bagre - Dorado",
+            "phonetics": "Sapalu - Bagre - Dorado",
+            "translation": "Sábalo - Bagre - Dorada",
+            "description": "Los peces en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcae5f3c12yui759ac4e",
+            "lesson_number": 2,
+            "phrase": "Anzama - Cheo - Botello",
+            "phonetics": "Anzama - Cheo - Botello",
+            "translation": "Sambica - Cheo - Botello",
+            "description": "Los peces en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaef0fs9h7tbloip9b6",
+            "lesson_number": 3,
+            "phrase": "Denton - Garopa - Mujara - Singo",
+            "phonetics": "Denton - Garopa - Mujara - Singo",
+            "translation": "Denton - Garopa -  Mojarra - Singo",
+            "description": "Los peces en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaef2258314hgt43h3",
+            "lesson_number": 4,
+            "phrase": "Temblon - Palkuru - Guaña",
+            "phonetics": "Temblon - Palkuru - Guaña",
+            "translation": "Temblón - Barbudo - Cucha",
+            "description": "Los peces en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcjuy7458314hgt43h3",
+            "lesson_number": 5,
+            "phrase": "Piaaza - Ma - Talmu - Raya",
+            "phonetics": "Piaaza - Ma - Talmu - Raya",
+            "translation": "Guabina - Macuro - Bagre sapo - Raya",
+            "description": "Los peces en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcjuiy758314hgt43h3",
+            "lesson_number": 6,
+            "phrase": "ɨzal cham - Piraña - Zapayu",
+            "phonetics": "ɨzal cham - Piraña - Zapayu",
+            "translation": "Rebalsao - Piraña - Pintarillo",
+            "description": "Los peces en Awá pit",
+            "examples": []
+          }
+
+        ],
+        "quiz": [
+          {
+            "id": "7e01ddiu89701e949t42503d",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Sábalo</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "sapalu",
+            "options": []
+          },
+          {
+            "id": "7e01dcae82g2kjiue432ekde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Anzama</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "sambica",
+            "options": []
+          },
+          {
+            "id": "7e01dloi8193b1c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Ma</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Macuro",
+            "options": [
+              "Dorada",
+              "Macuro",
+              "Macura",
+              "Bagre"
+            ]
+          },
+          {
+            "id": "7e01dcaed67b7f20c76kjh5",
+            "question_number": 4,
+            "question": "Escribe la correcta traducción para <b>Piraña</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "piraña",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0e9b4101lkjrc8f",
+        "exercise_number": 4,
+        "title": "Aves en Awá Pit",
+        "description": "Verbos en Awá pit... (au sukins zitsu)",
+        "lessons": [
+          {
+            "id": "9e016ce89412j4elkj87521",
+            "lesson_number": 1,
+            "phrase": "Naram tɨl shakta chichu - Piankwa",
+            "phonetics": "Naram tɨl shakta chichu - Piankwa",
+            "translation": "Curilo - Garza",
+            "description": "Verbos en Awá pit...",
+            "examples": []
+          },
+          {
+            "id": "9w01dcae5f3c5tasf40ac4a",
+            "lesson_number": 2,
+            "phrase": "Pi wam - Mu apkiru - Chakum",
+            "phonetics": "Pi wam - Mu apkiru - Chakum",
+            "translation": "Águila - Mochilero - Golondrina",
+            "description": "Aves de nuestro territorio",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1i5931509oi37b6",
+            "lesson_number": 3,
+            "phrase": "Kuampul - Nuro - Ñankara",
+            "phonetics": "Kuampul - Nuro - Ñankara",
+            "translation": "Lechuza - Loro - Colibrí",
+            "description": "Aves de nuestro territorio",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g10417kjh768f51",
+            "lesson_number": 4,
+            "phrase": "Palitun - Alkum - Kuaku",
+            "phonetics": "Palitun - Alkum - Kuaku",
+            "translation": "Paletón - Alcom - Guaco",
+            "description": "Aves de nuestro territorio",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04dc4eaf60ee9iuo87203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Piankwa</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Garza",
+            "options": [
+              "Loro",
+              "Garza",
+              "Colibrí",
+              "Curilo"
+            ]
+          },
+          {
+            "id": "9e01dcae87b203asd432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Águila/b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "pi wam",
+            "options": []
+          },
+          {
+            "id": "9e0fdtae28hasfe33f3c2125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Nuro</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Loro",
+            "options": [
+              "Águila",
+              "Lara",
+              "Loro",
+              "Lechuza"
+            ]
+          },
+          {
+            "id": "91t1dcaed67b7fasfrebad3a",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Kuampul/b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "lechuza",
+            "options": []
+          },
+          {
+            "id": "9e01ac2ed68boiasfr1add8a",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Guaco</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Kuaku",
+            "options": [
+              "Cauca",
+              "Kiuka",
+              "Kauo",
+              "Kuaku"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1e3fgcas0e9b41asfe396agf",
+        "exercise_number": 5,
+        "title": "Cuerpo Humano I",
+        "description": "Aprende a nombrar el cuerpo humano",
+        "lessons": [
+          {
+            "id": "9e01dcakiju8c2213a7a021s",
+            "lesson_number": 1,
+            "phrase": "Kɨzpu - Mats - Kasu",
+            "phonetics": "Kɨzpu - Mats - Kasu",
+            "translation": "Cabeza - Cara -  Ojos",
+            "description": "El cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5f3c81f55mkjiu4e",
+            "lesson_number": 2,
+            "phrase": "Shistɨ - Mittɨ - Kimpuh",
+            "phonetics": "Shistɨ - Mittɨ - Kimpuh",
+            "translation": "Mano - Pie - Nariz",
+            "description": "El cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaef0059mkji32287b6",
+            "lesson_number": 3,
+            "phrase": "Shistɨ tɨpu - Kail - Sɨhkuit",
+            "phonetics": "Shistɨ tɨpu - Kail - Sɨhkuit",
+            "translation": "Dedos - Oreja - Uña",
+            "description": "El cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5kjhg378385c8f54",
+            "lesson_number": 4,
+            "phrase": "Pit - Kapchaish - Kasu aish",
+            "phonetics": "Pit - Kapchaish - Kasu aish",
+            "translation": "Boca - Ceja -  Pestañas",
+            "description": "El cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaea58adb68lkjnb777",
+            "lesson_number": 5,
+            "phrase": "Pittakiru - Ñapika - Chichu",
+            "phonetcs": "Pittakiru - Ñapika - Chichu",
+            "translation": "Labio - Lengua - Senos",
+            "description": "El cuerpo humano",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9e01dcaeaf60ee94mnb6703c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Kɨzpu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Cabeza",
+            "options": [
+              "Cabeza",
+              "Senos",
+              "Boca",
+              "Ojos"
+            ]
+          },
+          {
+            "id": "9e01dcae8712srlkj872ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Mittɨ/b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "pie",
+            "options": []
+          },
+          {
+            "id": "9e01dcae080ghjui3126tf25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Shɨkuit</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Uña",
+            "options": [
+              "Cabeza",
+              "Uña",
+              "Cara",
+              "Oreja"
+            ]
+          },
+          {
+            "id": "9e01dcaed67b7ferfopi0138",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Shistɨ tɨpu/b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "dedos",
+            "options": []
+          },
+          {
+            "id": "9e01dcaed68bahypo09qdd80",
+            "question_number": 6,
+            "question": "Selecciona la correcta traducción para <b>Pittakiru</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Labio",
+            "options": [
+              "Boca",
+              "Lengua",
+              "Labio",
+              "Mano"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0e9987ylkjrc8f",
+        "exercise_number": 5,
+        "title": "Presentación personal II",
+        "description": "Continúa interactuando!",
+        "lessons": [
+          {
+            "id": "9e016ce89412j4el980uy21",
+            "lesson_number": 1,
+            "phrase": "¿up akkuane chimun?",
+            "phonetics": "¿up akkuane chimun?",
+            "translation": "¿Su mamá cómo se llama?",
+            "description": "Verbos en Awá pit...",
+            "examples": []
+          },
+          {
+            "id": "9w01dcae5f3lootrf40ac4a",
+            "lesson_number": 2,
+            "phrase": "¿Up pampane chimun?",
+            "phonetics": "¿Up pampane chimun?",
+            "translation": "¿Su abuelo cómo se llama?",
+            "description": "Verbos en Awá pit...",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1i5931uiy5437b6",
+            "lesson_number": 3,
+            "phrase": "¿Up kuankuane chimun?",
+            "phonetics": "¿Up kuankuane chimun?",
+            "translation": "¿Su abuela cómo se llama?",
+            "description": "Verbos en Awá pit...",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g10lko89h768f51",
+            "lesson_number": 4,
+            "phrase": "¿Nune Awapit param?",
+            "phonetics": "¿Nune Awapit param?",
+            "translation": "¿Usted sabe hablar Awá pit?",
+            "description": "Verbos en Awá pit...",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g10676yhh768f51",
+            "lesson_number": 5,
+            "phrase": "¿Up taitane chimun?",
+            "phonetics": "¿Up taitane chimun?",
+            "translation": "¿Su papá cómo se llama?",
+            "description": "Verbos en Awá pit...",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04dc4ejkhiue9iuo87203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>¿Su abuelo cómo se llama?</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "¿Up pampane chimun?",
+            "options": [
+              "¿Up pampane chimun?",
+              "¿chimun pampane?",
+              "¿Up chumun?",
+              "¿Up pampane cha?"
+            ]
+          },
+          {
+            "id": "9e01dcae87b203asd432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>¿Su abuela cómo se llama?</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "¿up kuankuane chimun?",
+            "options": []
+          },
+          {
+            "id": "9e0fdtae28hasfe33f3c2125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>¿up akkuane chimun?</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "¿Su madre cómo se llama?",
+            "options": [
+              "¿Su madre dónde vive?",
+              "¿Su abuela cómo se llama?",
+              "¿Su tío cómo se llama?",
+              "¿Su madre cómo se llama?"
+            ]
+          },
+          {
+            "id": "91t1dcaed67b7fasfrebad3a",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>¿Nune Awapit param?</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "¿usted sabe hablar awá pit?",
+            "options": []
+          },
+          {
+            "id": "9e01ac2ed68boiasfr1add8a",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>¿Su papá cómo se llama?</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Kuaku",
+            "options": [
+              "¿Su papá dónde vive?",
+              "¿Su papá cómo se llama?",
+              "¿Su abuela cómo se llama?",
+              "¿Su hermano cómo se llama?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0e9987ylkji90f",
+        "exercise_number": 7,
+        "title": "Cuerpo Humano II",
+        "description": "Aprende a nombrar el cuerpo humano",
+        "lessons": [
+          {
+            "id": "9e016ce89412j4el890yt21",
+            "lesson_number": 1,
+            "phrase": "Panchɨt - Pɨja - Pɨz",
+            "phonetics": "Panchɨt - Pɨja - Pɨz",
+            "translation": "Ombligo - Barriga - Vagina",
+            "description": "Nombra el cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "9w01dcakloi4ootrf40ac4a",
+            "lesson_number": 2,
+            "phrase": "Wakpuh - Pimput - Pῡ",
+            "phonetics": "Wakpuh - Pimput - Pῡ",
+            "translation": "Rodilla - Pierna - Pene",
+            "description": "Nombra el cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1lokpiuiy5437b6",
+            "lesson_number": 3,
+            "phrase": "Punts - Tɨmpu - Sait imput",
+            "phonetics": "Punts - Tɨmpu - Sait imput",
+            "translation": "Espalda - Cuello - Codo",
+            "description": "Nombra el cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g1lopi99h768f51",
+            "lesson_number": 4,
+            "phrase": "Kɨnij - Yarɨ - Zula",
+            "phonetics": "Kɨnij - Yarɨ - Zula",
+            "translation": "Frente - Cumbamba - Dientes",
+            "description": "Nombra el cuerpo humano",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g1009080h768f51",
+            "lesson_number": 5,
+            "phrase": "Pῡnut",
+            "phonetics": "Pῡnut",
+            "translation": "Testículo",
+            "description": "Nombra el cuerpo humano",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04dc4loki0ue9iuo87203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Ombligo</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Panchɨt",
+            "options": [
+              "Panchɨt",
+              "Pancha",
+              "Kuluk",
+              "Pancho"
+            ]
+          },
+          {
+            "id": "9e01dcae87b2tyui8432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Wakpuh</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "rodilla",
+            "options": []
+          },
+          {
+            "id": "9e0fdtae28po03433f3c2125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Tɨmpu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Cuello",
+            "options": [
+              "Brazo",
+              "Pelo",
+              "Cuello",
+              "Cabeza"
+            ]
+          },
+          {
+            "id": "91t1dcaed67po0refrebad3a",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Dientes</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "zula",
+            "options": []
+          },
+          {
+            "id": "9e01ac2ed68oiuh4fr1add8a",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Espalda</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Punts",
+            "options": [
+              "Pipoas",
+              "Patsak",
+              "Pwatsak",
+              "Punts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0e90oiylkji90f",
+        "exercise_number": 8,
+        "title": "Alimentos",
+        "description": "Aprende a nombrar los alimentos!",
+        "lessons": [
+          {
+            "id": "9e016ce89412jjhg980yt21",
+            "lesson_number": 1,
+            "phrase": "Nut - Wat pata - Chuil - Piraish - Kun",
+            "phonetics": "Nul - Wat pala - Chuit - Pitaish - Cun",
+            "translation": "Chontaduro - Plátano - Ají - Caña - Yota",
+            "description": "Nombra los alimentos",
+            "examples": []
+          },
+          {
+            "id": "9w01dcakloi4ootr78uyt4a",
+            "lesson_number": 2,
+            "phrase": "Zɨ - Pata - Chira - Aruz - Ñame",
+            "phonetics": "Zɨ - Pala - Chira - Arus - Ñame",
+            "translation": "Frijol - Chiro - Banano - Arroz - Ñame",
+            "description": "Nombra los alimentos",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1lokpi435ts37b6",
+            "lesson_number": 3,
+            "phrase": "Kũ - Chiya - Tishnul - Pinul - Uva",
+            "phonetics": "Ku - Chiya - Tishtul - Pinut - Uva",
+            "translation": "Yuca -  Piña - Limón - Guama - Uva",
+            "description": "Nombra los alimentos",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g1lopi99h712erd",
+            "lesson_number": 4,
+            "phrase": "Itut - Bruju - Maracuyá",
+            "phonetics": "Itut - Buriju - Maracuyá",
+            "translation": "Aguacate - Borojó - Maracuyá",
+            "description": "Nombra los alimentos",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g10090gfh548f51",
+            "lesson_number": 5,
+            "phrase": "Aj - Pala pinta - Chicha - Pia",
+            "phonetics": "Aj - Pala painda - Chicha  Pia",
+            "translation": "Yuyo - Bala - Chicha - Maíz",
+            "description": "Nombra los alimentos",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04dc4lokfgtr4iuo87203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Plátano</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Chuil",
+            "options": [
+              "Chuil",
+              "Chual",
+              "Chail",
+              "Cho"
+            ]
+          },
+          {
+            "id": "9e01dcae87b2asdf5432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Uva</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "uva",
+            "options": []
+          },
+          {
+            "id": "9e0fdtae28po034loai82125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Kũ</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Yuca",
+            "options": [
+              "Chontaduro",
+              "Yacu",
+              "Yuca",
+              "Maíz"
+            ]
+          },
+          {
+            "id": "91t1dcaed67pghb76rebad3a",
+            "question_number": 4,
+            "question": "Escribe la correcta traducción para <b>Chicha/b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "chicha",
+            "options": []
+          },
+          {
+            "id": "9e01ac2ed68oiufghb5add8a",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Maíz</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Pia",
+            "options": [
+              "Pipoas",
+              "Pia",
+              "Paeo",
+              "Pais"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0e90oiylkjasf4",
+        "exercise_number": 9,
+        "title": "Artesanía Awá",
+        "description": "Artesanías de los Awá",
+        "lessons": [
+          {
+            "id": "9e016ce89asd6jhg980yt21",
+            "lesson_number": 1,
+            "phrase": "Tɨm - Tuh",
+            "phonetics": "Tɨm - Tuh",
+            "translation": "Canasto - Higra",
+            "description": "Artesanías",
+            "examples": []
+          },
+          {
+            "id": "9w01dcakloi4ootr78uyt4a",
+            "lesson_number": 2,
+            "phrase": "Chiyailtɨ - Kanoa",
+            "phonetics": "Chiyailti - Kanoaa",
+            "translation": "Balsa - Canoa",
+            "description": "Artesanías",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1lio87435ts37b6",
+            "lesson_number": 3,
+            "phrase": "Marimpa - Bombo",
+            "phonetics": "Marimba - Bombo",
+            "translation": "Marimba - Bombo",
+            "description": "Artesanías",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5guyi1i99h712erd",
+            "lesson_number": 4,
+            "phrase": "Amaka - Ataraya - Ñantam - Zuta",
+            "phonetics": "Amaca - Atarralla - Ñantam - Chuta",
+            "translation": "Amaca - Atarralla - Barridera - Sombrero",
+            "description": "Artesanías",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g1asd3gfh548f51",
+            "lesson_number": 5,
+            "phrase": "Kishtɨ Nutmu - Katankwa - Usapmu",
+            "phonetics": "Kishti nutmu - Katangua - Uzapmu",
+            "translation": "Manilla -  Catango - Abanico",
+            "description": "Artesanías",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04dc4lokfgtr4asdv7203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Tuh</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Higra",
+            "options": [
+              "Hogra",
+              "Ogro",
+              "Higra",
+              "Hago"
+            ]
+          },
+          {
+            "id": "9e01dcae87b2a78hv432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Marimpa</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "marimba",
+            "options": []
+          },
+          {
+            "id": "9e0fdtae28po03lko1i82125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Zuta</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Sombrero",
+            "options": [
+              "Sombrero",
+              "Sombra",
+              "Sobra",
+              "Abro"
+            ]
+          },
+          {
+            "id": "91t1dcaed6lokob76rebad3a",
+            "question_number": 4,
+            "question": "Escribe la correcta traducción para <b>Catango</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "katankwa",
+            "options": []
+          },
+          {
+            "id": "9e01ac2ed68oiuloka5add8a",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Kanoa</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Canoa",
+            "options": [
+              "Cana",
+              "Cona",
+              "Canoa",
+              "Cena"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

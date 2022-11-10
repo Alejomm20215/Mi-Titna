@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.text.InputType" />
+
+        <import type="com.example.mititna.ui.quiz.QuizViewModel.QuizState" />
+
+        <variable
+            name="viewmodel"
+            type="com.example.mititna.ui.quiz.QuizViewModel" />
+
+    </data>
+
+    <EditText
+        android:id="@+id/et_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="@string/enter_answer_hint"
+        android:importantForAutofill="no"
+        android:inputType="@{viewmodel.quizState == QuizState.NOT_ANSWERED ? InputType.TYPE_CLASS_TEXT : InputType.TYPE_NULL}"
+        android:onTextChanged="@{viewmodel::onAnswerTyped}"
+        android:textAlignment="viewStart"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</layout>

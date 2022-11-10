@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/exercisesFragment">
+
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.example.mititna.ui.exercises.ExercisesFragment"
+        android:label="@string/exercises_fragment_title"
+        tools:layout="@layout/fragment_exercises3">
+        <action
+            android:id="@+id/action_exercisesFragment_to_lessonsFragment"
+            app:destination="@id/lessonsFragment" />
+        <action
+            android:id="@+id/action_exercisesFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lessonsFragment"
+        android:name="com.example.mititna.ui.lessons.LessonsFragment"
+        android:label="@string/lessons_fragment_title"
+        tools:layout="@layout/fragment_lessons" >
+        <argument
+            android:name="exerciseId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_lessonsFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.mititna.ui.quiz.QuizFragment"
+        android:label="@string/quiz_fragment_title"
+        tools:layout="@layout/fragment_quiz">
+        <argument
+            android:name="exerciseId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_quizFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.mititna.ui.quiz.result.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_resultFragment_to_exercisesFragment"
+            app:destination="@id/exercisesFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_quizFragment"
+            app:destination="@id/quizFragment"
+            app:popUpTo="@id/quizFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="lifeLeft"
+            app:argType="integer" />
+        <argument
+            android:name="quizResult"
+            app:argType="com.example.mititna.ui.quiz.result.ResultViewModel$QuizResult" />
+        <argument
+            android:name="exerciseId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.mititna.ui.settings.SettingsFragment"
+        android:label="@string/settings_fragment_title">
+        <action
+            android:id="@+id/action_settingsFragment_to_timePickerFragment"
+            app:destination="@id/timePickerFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/timePickerFragment"
+        android:name="com.example.mititna.ui.settings.TimePickerFragment"
+        android:label="TimePickerFragment" />
+</navigation>

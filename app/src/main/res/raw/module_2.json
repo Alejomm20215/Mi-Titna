@@ -1,0 +1,684 @@
+{
+    "created_at": "2022",
+    "modified_at": "2022",
+    "exercises": [
+      {
+        "id": "5e01dcae0e9sf10gg2996c8f",
+        "exercise_number": 1,
+        "title": "Las Emociones",
+        "description": "Aprende a expresar cómo te sientes!",
+        "lessons": [
+          {
+            "id": "5e21dcae8941c246dea7ar18d",
+            "lesson_number": 1,
+            "phrase": "Tayaltu",
+            "phonetics": "Tayalnu",
+            "translation": "Triste",
+            "description": "Emociones",
+            "examples": [
+              {
+                "id": "5e01dcae8951c2463a7a914d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              },
+              {
+                "id": "5e01dcae8952c2463a7a014d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              }
+            ]
+          },
+          {
+            "id": "5e01dcdae5f3c81f55339af2e",
+            "lesson_number": 2,
+            "phrase": "Ishaintu",
+            "phonetics": "Ishainnu",
+            "translation": "Risa",
+            "description": "Emociones",
+            "examples": []
+          },
+          {
+            "id": "5e01dcaef0059415b22287b6",
+            "lesson_number": 3,
+            "phrase": "Naistɨt",
+            "phonetics": "Naistɨt",
+            "translation": "Aburrido",
+            "description": "Emociones",
+            "examples": []
+          },
+          {
+            "id": "5e01dcae16604578385c8f58",
+            "lesson_number": 4,
+            "phrase": "Alish",
+            "phonetics": "Alsih",
+            "translation": "Enojado",
+            "description": "Emociones",
+            "examples": []
+          },
+          {
+            "id": "5e01dca4558adb6864408787",
+            "lesson_number": 5,
+            "phrase": "Wachaintu",
+            "phonetics": "Wachaintu",
+            "translation": "Contento",
+            "description": "Emociones",
+            "examples": []
+          },
+          {
+            "id": "5e10ftaea58adb6864408790",
+            "lesson_number": 6,
+            "phrase": "Pashimtuil",
+            "phonetics": "Pashimtuil",
+            "translation": "Enamorado",
+            "description": "Emociones",
+            "examples": []
+          },
+          {
+            "id": "5e01dtaea98adt6863508777",
+            "lesson_number": 7,
+            "phrase": "Watkajchu",
+            "phonetics": "Watkajchu",
+            "translation": "Feliz",
+            "description": "Emociones",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "5e01dcaeaf60ee949362503c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Alish</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Enojado",
+            "options": [
+              "Enojado",
+              "Feliz",
+              "Triste",
+              "Contento"
+            ]
+          },
+          {
+            "id": "5e01dcae87b20232f432ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Watkajchu</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "feliz",
+            "options": []
+          },
+          {
+            "id": "5e01dcae0803b2c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Aburrido</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Naistɨt",
+            "options": [
+              "Nustiat",
+              "Naistɨt",
+              "Naishta",
+              "Noush"
+            ]
+          },
+          {
+            "id": "5e01dcaed67b7f27776bad38",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Pashimtuil</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "enamorado",
+            "options": []
+          },
+          {
+            "id": "5e01dcaed68baa6ef48add80",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Ishaintu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Feliz",
+            "options": [
+              "Alegre",
+              "Triste",
+              "Enojado",
+              "Feliz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6e01dcae0e9b410352946y8f",
+        "exercise_number": 2,
+        "title": "La Familia I",
+        "description": "Nombra a tus familiares...",
+        "lessons": [
+          {
+            "id": "6e01dcae8941c25g1a7a318d",
+            "lesson_number": 1,
+            "phrase": "Papish / taita",
+            "phonetics": "Papish",
+            "translation": "Papá",
+            "description": "La familia en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "6e01dcae5f3g81f55332ac4t",
+            "lesson_number": 2,
+            "phrase": "Akwish / akwa",
+            "phonetics": "Akwish / akwa",
+            "translation": "Mamá",
+            "description": "La familia en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "6e01dcaef1159315b22387b6",
+            "lesson_number": 3,
+            "phrase": "Aña aimpish",
+            "phonetics": "Aña aimpish",
+            "translation": "Hermano",
+            "description": "Nombra a tus familiares...",
+            "examples": []
+          },
+          {
+            "id": "6e01dcae5660457828528fh9",
+            "lesson_number": 4,
+            "phrase": "Kwampish kwa kuaa",
+            "phonetics": "Kwampish kwa kuaa",
+            "translation": "Hermana",
+            "description": "Nombra a tus familiares...",
+            "examples": []
+          },
+          {
+            "id": "6e11dkada58adb6864408721",
+            "lesson_number": 5,
+            "phrase": "Pampa - Kwankua",
+            "phonetics": "Pampa - Kwankua",
+            "translation": "Abuelo - Abuela",
+            "description": "Nombra a tus familiares...",
+            "examples": []
+          },
+          {
+            "id": "6e01dckra67adb6864j0y678",
+            "lesson_number": 6,
+            "phrase": "Tiu - Tia",
+            "phonetics": "Tiu - Tia",
+            "translation": "Tío - Tía",
+            "description": "Nombra a tus familiares...",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "6e01d2fegf60he919262503c",
+            "question_number": 1,
+            "question": "¿Qué significa <b>Papish</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Papá",
+            "options": [
+              "Abuelo",
+              "Papá",
+              "Tía",
+              "Tío"
+            ]
+          },
+          {
+            "id": "8e01dcae8742b21rf432ecde",
+            "question_number": 2,
+            "question": "¿Qué significa <b>Pampa</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "abuelo",
+            "options": []
+          },
+          {
+            "id": "6e1tdcae0803b2c03f3ce325",
+            "question_number": 3,
+            "question": "¿Qué significa <b>Akwish</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Mamá",
+            "options": [
+              "Abuela",
+              "Papá",
+              "Hermana",
+              "Mamá"
+            ]
+          },
+          {
+            "id": "6e01dtued67b7f27776bad96",
+            "question_number": 4,
+            "question": "¿Qué significa <b>Aña aimpish</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "hermano",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "7e01dcae0e9b410852934c2d",
+        "exercise_number": 4,
+        "title": "Familia II",
+        "description": "Nombra a tus familiares...",
+        "lessons": [
+          {
+            "id": "7e01dcae125562463a7a918d",
+            "lesson_number": 1,
+            "phrase": "Aña Kishna - kwakishna",
+            "phonetics": "Aña Kishna - kwakishna",
+            "translation": "Primo - Prima",
+            "description": "La familia en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcae5f3c12f4gh59ac4e",
+            "lesson_number": 2,
+            "phrase": "Mamapis - wanchapish",
+            "phonetics": "Mamapis - wanchapish",
+            "translation": "Cuñada - Cuñado",
+            "description": "La familia en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaef0fs9h7tb11185b6",
+            "lesson_number": 3,
+            "phrase": "Pampa ɨlapa - Kuankwa pamba",
+            "phonetics": "Pampa ɨlapa - Kuankwa pamba",
+            "translation": "Bisabuelo - Bisabuela",
+            "description": "La familia en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaef2258314b212yh3",
+            "lesson_number": 4,
+            "phrase": "Kuankwa ɨnkua - Pampa paishpa",
+            "phonetics": "Kuankwa ɨnkua - Pampa paishpa",
+            "translation": "Nieta - Nieto",
+            "description": "La familia en Awá pit",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "7e01ddaeaf701e949t42503d",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Aña Kishna</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "primo",
+            "options": []
+          },
+          {
+            "id": "7e01dcae82g20232f432ekde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Pampa</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "abuelo",
+            "options": []
+          },
+          {
+            "id": "7e01dcae0093b1c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Pampa paishpa</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Nieto",
+            "options": [
+              "Prima",
+              "Nieto",
+              "Mamá",
+              "Papá"
+            ]
+          },
+          {
+            "id": "7e01dcaed67b7f20c76bad38",
+            "question_number": 4,
+            "question": "Escribe la correcta traducción para <b>Kuankwa pasihpa</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "nieta",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "8e01dcae0e9b410552996c8f",
+        "exercise_number": 3,
+        "title": "Verbos I",
+        "description": "Verbos en Awá Pit...",
+        "lessons": [
+          {
+            "id": "7e01dcae8941c2463a7a918u",
+            "lesson_number": 1,
+            "phrase": "Zalnus - Pamptus - Aztu",
+            "phonetics": "Zalnus - Pamptus - Aztu",
+            "translation": "Jugar - Escribir - Llorar",
+            "description": "Verbos en Presente",
+            "examples": []
+          },
+          {
+            "id": "6e01dcae5f3c81f55339ac9i",
+            "lesson_number": 2,
+            "phrase": "Kanta kishtu - Payi - Katkimtus",
+            "phonetics": "Kanta kishtu - Payi - Katkimtus",
+            "translation": "Cantar - Bailar - Trabajar",
+            "description": "Verbos en Presente",
+            "examples": []
+          },
+          {
+            "id": "8e76dcaef0059315b0u687b6",
+            "lesson_number": 3,
+            "phrase": "Ishtu - Mɨntus - Pɨlakpɨtui",
+            "phonetics": "Ishtu - Mɨntus - Pɨlakpɨtui",
+            "translation": "Leer - Escuchar - Saltar",
+            "description": "Verbos en Presente",
+            "examples": []
+          },
+          {
+            "id": "jiu8dcae56604578385c8fuh",
+            "lesson_number": 4,
+            "phrase": "Pi kamtu - Pishkaru kimtus",
+            "phonetics": "Pi kamtu - Pishkaru kimtus",
+            "translation": "Nadar - Pescar",
+            "description": "Verbos en Presente",
+            "examples": []
+          },
+          {
+            "id": "8e01d7y2a58adb6864408977",
+            "lesson_number": 5,
+            "phrase": "Pɨh kamtu - Wamtu",
+            "phonetics": "Pɨh kamtu - Wamtu",
+            "translation": "Estudiar - Sembrar",
+            "description": "Verbos en Presente",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "8e01dcaeaf60aa949362yh4a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Aztu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Llorar",
+            "options": [
+              "Bailar",
+              "Estudiar",
+              "Llorar",
+              "Leer"
+            ]
+          },
+          {
+            "id": "8e01dcae87b20215g432ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Nadar</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "pi kamtu",
+            "options": []
+          },
+          {
+            "id": "8e01dcae8903b2c03f3c8e0a",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Wamtu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Sembrar",
+            "options": [
+              "Sembrar",
+              "Leer",
+              "Jugar",
+              "Bailar"
+            ]
+          },
+          {
+            "id": "8e0124add67b7f27776bad38",
+            "question_number": 4,
+            "question": "Escribe la correcta traducción para <b>Pescar</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "pishkaru kimtus",
+            "options": []
+          },
+          {
+            "id": "2501dcaed68baa6ef48ai780",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Pɨh kamtu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Estudiar",
+            "options": [
+              "Trabajar",
+              "Estudiar",
+              "Jugar",
+              "Cantar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0e9b410110906c8f",
+        "exercise_number": 5,
+        "title": "Verbos II",
+        "description": "Verbos en Awá Pit...",
+        "lessons": [
+          {
+            "id": "9e016ce89412j4e3a7b1121",
+            "lesson_number": 1,
+            "phrase": "Patku - Satku - Kantas",
+            "phonetics": "Patku - Satku - Kantas",
+            "translation": "Escribí - Dibujé - Amarré",
+            "description": "Verbos en pasado",
+            "examples": []
+          },
+          {
+            "id": "9w01dcae5f3c5tf59th0ac4a",
+            "lesson_number": 2,
+            "phrase": "ɨrau - Aĩɨn charau - Tɨtku",
+            "phonetics": "ɨrau - Aĩɨn charau - Tɨtku",
+            "translation": "Caminé - Corrí - Corté",
+            "description": "Verbos en pasado",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1i59315b209f7b6",
+            "lesson_number": 3,
+            "phrase": "Sɨptau - Ishtau - Kuarau",
+            "phonetics": "Sɨptau - Ishtau - Kuarau",
+            "translation": "Cerré - Leí - Cargué",
+            "description": "Verbos en pasado",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g1041783ujc8f51",
+            "lesson_number": 4,
+            "phrase": "ĩkulnuashi - Pɨlakpɨntau - Pishkaru kirau",
+            "phonetics": "ĩkulnuashi - Pɨlakpɨntau - Pishkaru kirau",
+            "translation": "Calentaba - Salté - Pesqué",
+            "description": "Verbos en pasado",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04dc4eaf60ee949361203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Patku</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Escribí",
+            "options": [
+              "Escribí",
+              "Lloré",
+              "Salté",
+              "Leí"
+            ]
+          },
+          {
+            "id": "9e01dcae87b2032sf432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Aĩɨn charau</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "corrí",
+            "options": []
+          },
+          {
+            "id": "9e0fdtae28h3b2c03f3c2125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Ishtau</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Leí",
+            "options": [
+              "Nadé",
+              "Estudié",
+              "Bailé",
+              "Leí"
+            ]
+          },
+          {
+            "id": "91t1dcaed67b7f212efbad3a",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Cerré</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "sɨptau",
+            "options": []
+          },
+          {
+            "id": "9e01ac2ed68boi7ef48add8a",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Calentaba</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "ĩkulnuashi",
+            "options": [
+              "Pashmat",
+              "ĩkulnuashi",
+              "Shatmi",
+              "Pashtim"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1e3fgcas0e9b410552996agf",
+        "exercise_number": 6,
+        "title": "Verbos III",
+        "description": "Verbos en Awá Pit...",
+        "lessons": [
+          {
+            "id": "9e01dcae8941c2213a7a021s",
+            "lesson_number": 1,
+            "phrase": "Pɨh kamtuanish - Zalnaish - Panaish",
+            "phonetics": "Pɨh kamtuanish - Zalnaish - Panaish",
+            "translation": "Estudiaré - Jugaré - Escribiré",
+            "description": "Verbos en futuro",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5f3c81f55339ac4e",
+            "lesson_number": 2,
+            "phrase": "Wanaish - Pishkaru kinɨnaish - Pi kamtawaz",
+            "phonetics": "Wanaish - Pishkaru kinɨnaish - Pi kamtawaz",
+            "translation": "Sembraré - Pescaré - Nadaré ",
+            "description": "Verbos en futuro",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaef0059315b22287b6",
+            "lesson_number": 3,
+            "phrase": "ɨmirish - Aĩɨn chanaish - Aĩnanaish",
+            "phonetics": "ɨmirish - Aĩɨn chanaish - Aĩnanaish",
+            "translation": "Caminaré - Correré - Cocinaré",
+            "description": "Verbos en futuro",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae56604578385c8f54",
+            "lesson_number": 4,
+            "phrase": "Ikulnaish - Pianaish - Satanaish",
+            "phonetics": "Ikulnaish - Pianaish - Satanaish",
+            "translation": "Calenaré - Tragaré - Dibujaré",
+            "description": "Verbos en futuro",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaea58adb6864408777",
+            "lesson_number": 5,
+            "phrase": "Kuanaish - Ishtawaish - Pɨlakpɨnishnawaz",
+            "phonetcs": "Kuanaish - Ishtawaish - Pɨlakpɨnishnawaz",
+            "translation": "Cargaré - Leeré - Reiré",
+            "description": "Verbos en futuro",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9e01dcaeaf60ee9412rf503c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Zalnaish</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Jugaré",
+            "options": [
+              "Comeré",
+              "Jugaré",
+              "Tragaré",
+              "Pescaré"
+            ]
+          },
+          {
+            "id": "9e01dcae8712srf2f432ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Nadaré/b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "pi kamtawaz",
+            "options": []
+          },
+          {
+            "id": "9e01dcae0803b2c03126tf25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Aĩɨn chanaish</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Correré",
+            "options": [
+              "Caminaré",
+              "Dibujaré",
+              "Correré",
+              "Nadaré"
+            ]
+          },
+          {
+            "id": "9e01dcaed67b7ferf56bad38",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Pianaish</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "tragaré",
+            "options": []
+          },
+          {
+            "id": "9e01dcaed68bahyug76add80",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Reiré</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Pɨlakpɨnishnawaz",
+            "options": [
+              "Pushmiwa",
+              "Pashimitaz",
+              "Pɨlakpɨnishnawaz",
+              "Pashumiz"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

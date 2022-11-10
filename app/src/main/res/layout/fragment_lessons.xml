@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.lessons.LessonsFragment">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewmodel"
+            type="com.example.mititna.ui.lessons.LessonsViewModel" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".firstModule.ui.lessons.LessonsFragment">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/start_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="16dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/end_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="16dp" />
+
+            <TextView
+                android:id="@+id/tv_phrase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="32dp"
+                android:fontFamily="@font/autour_one"
+                android:text="@{viewmodel.lesson.phrase?? ``}"
+                android:textColor="@android:color/black"
+                android:textSize="64sp"
+                app:layout_constraintEnd_toStartOf="@+id/end_margin"
+                app:layout_constraintStart_toStartOf="@+id/start_margin"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Abuela" />
+
+            <ImageButton
+                android:id="@+id/ib_sound"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dp"
+                app:layout_constraintEnd_toStartOf="@+id/ic_phonetics"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="@+id/start_margin"
+                app:layout_constraintTop_toBottomOf="@+id/tv_translation"
+                app:srcCompat="@drawable/ic_sound" />
+
+            <TextView
+                android:id="@+id/ic_phonetics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@{@string/phonetics(viewmodel.lesson.phonetics ?? ``)}"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/ib_sound"
+                app:layout_constraintEnd_toStartOf="@+id/end_margin"
+                app:layout_constraintStart_toEndOf="@id/ib_sound"
+                app:layout_constraintTop_toTopOf="@+id/ib_sound"
+                app:layout_constraintVertical_bias="0.541"
+                tools:text="[abuela]" />
+
+            <TextView
+                android:id="@+id/tv_translation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/alata"
+                android:text="@{viewmodel.lesson.translation?? ``}"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_phrase"
+                app:layout_constraintHorizontal_bias="0.437"
+                app:layout_constraintStart_toStartOf="@+id/tv_phrase"
+                app:layout_constraintTop_toBottomOf="@+id/tv_phrase"
+                tools:text="Grandmother" />
+
+            <Button
+                android:id="@+id/btn_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:onClick="@{() -> viewmodel.previousLesson()}"
+                android:text="Previous"
+                android:visibility="@{viewmodel.isPreviousButtonVisible() ? View.VISIBLE : View.INVISIBLE, default = invisible}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_quiz"
+                app:layout_constraintStart_toEndOf="@+id/tv_phrase"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btn_quiz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp"
+                android:enabled="@{viewmodel.isQuizButtonEnabled()}"
+                android:text="Quiz"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_next"
+                app:layout_constraintStart_toEndOf="@+id/btn_previous"
+                app:layout_constraintTop_toTopOf="@+id/btn_previous" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:onClick="@{() -> viewmodel.nextLesson()}"
+                android:text="Next"
+                android:visibility="@{viewmodel.isNextButtonVisible() ? View.VISIBLE : View.INVISIBLE, default = invisible}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btn_quiz"
+                app:layout_constraintTop_toTopOf="@+id/btn_quiz" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

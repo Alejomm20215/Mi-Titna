@@ -1,0 +1,671 @@
+{
+  "created_at": "2022",
+  "modified_at": "2022",
+  "exercises": [
+    {
+      "id": "5e01dcae0e9b410552996c8f",
+      "exercise_number": 1,
+      "title": "Alfabeto en Awapit",
+      "description": "Aprende las letras en Awapit y su traducción",
+      "lessons": [
+        {
+          "id": "5e01dcae8941c2463a7a918d",
+          "lesson_number": 1,
+          "phrase": "Consonantes del Awapit",
+          "phonetics": "P, k, s, sh, z, zh, m, n, ñ, l, j",
+          "translation": "P, k, s, sh, z, zh, m, n, ñ, l, j",
+          "description": "Las trece consonantes del Awapit",
+          "examples": [
+            {
+              "id": "5e01dcae8951c2463a7a914d",
+              "sentence": "Lorem ipsum dolor sit amet",
+              "translation": "consectetur adipiscing elit"
+            },
+            {
+              "id": "5e01dcae8952c2463a7a014d",
+              "sentence": "Lorem ipsum dolor sit amet",
+              "translation": "consectetur adipiscing elit"
+            }
+          ]
+        },
+        {
+          "id": "5e01dcae5f3c81f55339ac4e",
+          "lesson_number": 2,
+          "phrase": "Tipos de vocales",
+          "phonetics": "a, i, u, e, ɨ.... ih, uh, ɨh",
+          "translation": "a, i, u, e, ɨ.... ih, uh, ɨh",
+          "description": "Vocales orales y sordas",
+          "examples": []
+        },
+        {
+          "id": "5e01dcaef0059315b22287b6",
+          "lesson_number": 3,
+          "phrase": "Tipos de vocales",
+          "phonetics": "ã, ἷ, ῦ, ẽ, ɨ",
+          "translation": "ã, ἷ, ῦ, ẽ, ɨ",
+          "description": "Vocales nasalizadas",
+          "examples": []
+        },
+        {
+          "id": "5e01dcae56604578385c8f54",
+          "lesson_number": 4,
+          "phrase": "Fonemas",
+          "phonetics": "m, n, ñ, I, r ",
+          "translation": "m, n, ñ, I, r ",
+          "description": "Fonemas del Awapit",
+          "examples": []
+        },
+        {
+          "id": "5e01dcaea58adb6864408777",
+          "lesson_number": 5,
+          "phrase": "Oclusivas sordas y sonidos sami-vocales",
+          "phonetics": "P, t, k, y, w",
+          "translation": "P, t, k, y, w",
+          "description": "",
+          "examples": []
+        }
+      ],
+      "quiz": [
+        {
+          "id": "5e01dcaeaf60ee949362503c",
+          "question_number": 1,
+          "question": "Selecciona la correcta traducción para <b>a</b>",
+          "type": "mcq",
+          "hint": "Nota: pronuncia la letra en voz alta antes de contestar ",
+          "correct_answer": "a",
+          "options": [
+            "Ae",
+            "aha",
+            "a",
+            "aa"
+          ]
+        },
+        {
+          "id": "5e01dcae87b20232f432ecde",
+          "question_number": 2,
+          "question": "Escribe la correcta traducción para <b>b</b>",
+          "type": "type",
+          "hint": "",
+          "correct_answer": "be",
+          "options": []
+        },
+        {
+          "id": "5e01dcae0803b2c03f3cee25",
+          "question_number": 3,
+          "question": "Selecciona la correcta traducción para <b>c</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "ce",
+          "options": [
+            "cae",
+            "ca",
+            "c",
+            "ce"
+          ]
+        },
+        {
+          "id": "5e01dcaed67b7f27776bad38",
+          "question_number": 4,
+          "question": "Selecciona la correcta traducción para <b>d</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "de",
+          "options": [
+            "de",
+            "d",
+            "da",
+            "di"
+          ]
+        },
+        {
+          "id": "5e01dcaed68baa6ef48add80",
+          "question_number": 5,
+          "question": "Selecciona la correcta traducción para <b>e</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "e",
+          "options": [
+            "i",
+            "ee",
+            "ih",
+            "e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6e01dcae0e9b410552996c8f",
+      "exercise_number": 2,
+      "title": "Saludos y Respuestas",
+      "description": "Tus primeras interacciones en el idioma",
+      "lessons": [
+        {
+          "id": "6e01dcae8941c2463a7a918d",
+          "lesson_number": 1,
+          "phrase": "Alu kɨntai",
+          "phonetics": "Alu kɨndai",
+          "translation": "Amaneció lloviendo ",
+          "description": "Frases para una mañana lluviosa",
+          "examples": []
+        },
+        {
+          "id": "6e01dcae5f3c81f55339ac4e",
+          "lesson_number": 2,
+          "phrase": "Kaish kɨnmari",
+          "phonetics": "Kaish kɨnmari",
+          "translation": "Buenos días",
+          "description": "Frases para una mañana lluviosa",
+          "examples": []
+        },
+        {
+          "id": "6e01dcaef0059315b22287b6",
+          "lesson_number": 3,
+          "phrase": "Watsal naishtari",
+          "phonetics": "Watsal naishtari ",
+          "translation": "Buenas tardes",
+          "description": "Frases para una tarde despejada",
+          "examples": []
+        },
+        {
+          "id": "6e01dcae56604578385c8f54",
+          "lesson_number": 4,
+          "phrase": "Kai abu / kashi",
+          "phonetics": "Kai abu / kashi",
+          "translation": "Buenas tardes",
+          "description": "Frases para una tarde despejada",
+          "examples": []
+        },
+        {
+          "id": "6e01dcaea58adb6864408777",
+          "lesson_number": 5,
+          "phrase": "Paishka payu pamishma",
+          "phonetics": "Paishka payu pamishma",
+          "translation": "Buen día",
+          "description": "Frases para el medio día",
+          "examples": []
+        }
+      ],
+      "quiz": [
+        {
+          "id": "6e01dcaeaf60ee949362503c",
+          "question_number": 1,
+          "question": "¿Qué significa <b>Alu kɨntai</b>?",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Amaneció lloviendo",
+          "options": [
+            "Buen día",
+            "Amaneció lloviendo",
+            "Buenas noches",
+            "Saludos"
+          ]
+        },
+        {
+          "id": "6e01dcae87b20232f432ecde",
+          "question_number": 2,
+          "question": "¿Qué significa <b>Watsal naishtari </b>?",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "buenas tardes",
+          "options": []
+        },
+        {
+          "id": "6e01dcae0803b2c03f3cee25",
+          "question_number": 3,
+          "question": "¿Qué significa <b>Paishka payu pamishma</b>?",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Buen día",
+          "options": [
+            "Hasta pronto",
+            "Buenas tardes",
+            "Buen día",
+            "Hasta luego"
+          ]
+        },
+        {
+          "id": "6e01dcaed67b7f27776bad38",
+          "question_number": 4,
+          "question": "¿Qué significa <b>Kaish kɨnmari</b>?",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Buenos días",
+          "options": [
+            "Buenos días",
+            "Buenas noches",
+            "Amaneció lloviendo",
+            "Buenas tardes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7e01dcae0e9b410552996c8f",
+      "exercise_number": 3,
+      "title": "Saludos y Respuestas II",
+      "description": "Aprende más frases de este idioma!",
+      "lessons": [
+        {
+          "id": "7e01dcae8941c2463a7a918d",
+          "lesson_number": 1,
+          "phrase": "Tɨl patari",
+          "phonetics": "Tɨl patari",
+          "translation": "Buenas noches",
+          "description": "Saludo al oscurecer en la noche",
+          "examples": []
+        },
+        {
+          "id": "7e01dcae5f3c81f55339ac4e",
+          "lesson_number": 2,
+          "phrase": "Uratukima",
+          "phonetics": "Uratugima",
+          "translation": "Hasta luego",
+          "description": "Despedida de corto tiempo",
+          "examples": []
+        },
+        {
+          "id": "7e01dcaef0059315b22287b6",
+          "lesson_number": 3,
+          "phrase": "Pamparish payu kima",
+          "phonetics": "Pamparish payu gima",
+          "translation": "Hasta otro día",
+          "description": "Despedida de largo tiempo",
+          "examples": []
+        }
+      ],
+      "quiz": [
+        {
+          "id": "7e01dcaeaf60ee949362503c",
+          "question_number": 1,
+          "question": "Selecciona la correcta traducción para <b>Uratukima</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "hasta luego",
+          "options": []
+        },
+        {
+          "id": "7e01dcae87b20232f432ecde",
+          "question_number": 2,
+          "question": "Escribe la correcta pronunciación para <b>Uratukima</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "uratugima",
+          "options": []
+        },
+        {
+          "id": "7e01dcae0803b2c03f3cee25",
+          "question_number": 3,
+          "question": "Selecciona la correcta traducción para <b>Tɨl patari</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Buenas noches",
+          "options": [
+            "Buenos días",
+            "Hasta luego",
+            "Buenas noches",
+            "Hasta mañana"
+          ]
+        },
+        {
+          "id": "7e01dcaed67b7f27776bad38",
+          "question_number": 4,
+          "question": "Selecciona la correcta traducción para <b>Pamparish payu kima</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Hasta otro día",
+          "options": [
+            "Hasta pronto",
+            "Adiós",
+            "Hasta otro día",
+            "Buenas noches"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8e01dcae0e9b410552996c8f",
+      "exercise_number": 4,
+      "title": "Vocales en Español",
+      "description": "Continúa aprendiendo...",
+      "lessons": [
+        {
+          "id": "8e01dcae8941c2463a7a918d",
+          "lesson_number": 1,
+          "phrase": "La letra A",
+          "phonetics": "A",
+          "translation": "A",
+          "description": "Es la primera vocal y primera letra del abecedario en Español",
+          "examples": []
+        },
+        {
+          "id": "8e01dcae5f3c81f55339ac4e",
+          "lesson_number": 2,
+          "phrase": "la letra E",
+          "phonetics": "e",
+          "translation": "e",
+          "description": "Es la segunda vocal y quinta letra del abecedario Español",
+          "examples": []
+        },
+        {
+          "id": "8e01dcaef0059315b22287b6",
+          "lesson_number": 3,
+          "phrase": "I",
+          "phonetics": "i",
+          "translation": "I",
+          "description": "Es la segunda vocal y novena letra del abecedario Español",
+          "examples": []
+        },
+        {
+          "id": "8e01dcae56604578385c8f54",
+          "lesson_number": 4,
+          "phrase": "O",
+          "phonetics": "o",
+          "translation": "O",
+          "description": "Es la cuarta vocal y decimosexta letra del abecedario Español",
+          "examples": []
+        },
+        {
+          "id": "8e01dcaea58adb6864408777",
+          "lesson_number": 5,
+          "phrase": "U",
+          "phonetics": "u",
+          "translation": "U",
+          "description": "Es la quinta vocal y vigesimosegunda letra del abecedario Español",
+          "examples": []
+        }
+      ],
+      "quiz": [
+        {
+          "id": "8e01dcaeaf60ee949362503c",
+          "question_number": 1,
+          "question": "Selecciona la correcta pronunciación para <b>A</b>",
+          "type": "mcq",
+          "hint": "Nota: pronuncia la letra en voz alta antes de contestar ",
+          "correct_answer": "a",
+          "options": [
+            "ae",
+            "aha",
+            "a",
+            "aa"
+          ]
+        },
+        {
+          "id": "8e01dcae87b20232f432ecde",
+          "question_number": 2,
+          "question": "Escribe la correcta pronunciación para <b>O</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "o",
+          "options": []
+        },
+        {
+          "id": "8e01dcae0803b2c03f3cee25",
+          "question_number": 3,
+          "question": "Selecciona la correcta pronunciación para <b>I</b>",
+          "type": "mcq",
+          "hint": "Nota: pronuncia la letra en voz alta antes de contestar ",
+          "correct_answer": "i",
+          "options": [
+            "ihi",
+            "ci",
+            "i",
+            "ih"
+          ]
+        },
+        {
+          "id": "8e01dcaed67b7f27776bad38",
+          "question_number": 4,
+          "question": "Selecciona la correcta pronunciación para <b>E</b>",
+          "type": "mcq",
+          "hint": "Nota: pronuncia la letra en voz alta antes de contestar ",
+          "correct_answer": "e",
+          "options": [
+            "ee",
+            "eher",
+            "e",
+            "he"
+          ]
+        },
+        {
+          "id": "8e01dcaed68baa6ef48add80",
+          "question_number": 5,
+          "question": "Selecciona la correcta pronunciación para <b>U</b>",
+          "type": "mcq",
+          "hint": "Nota: pronuncia la letra en voz alta antes de contestar ",
+          "correct_answer": "u",
+          "options": [
+            "u",
+            "uhu",
+            "hu",
+            "uh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9e01dcae0e9kjoi952996c8f",
+      "exercise_number": 5,
+      "title": "Colores en Awapit/Español",
+      "description": "Conoce los colores en ambos idiomas",
+      "lessons": [
+        {
+          "id": "9e01dcae8941c2463a7a918d",
+          "lesson_number": 1,
+          "phrase": "Pucha. Tɨl chakta",
+          "phonetics": "Pucha. Tɨl shakta",
+          "translation": "Blanco y Negro",
+          "description": "",
+          "examples": []
+        },
+        {
+          "id": "9e01dcae5f3c81f55339ac4e",
+          "lesson_number": 2,
+          "phrase": "Pihttam. Kwanam",
+          "phonetics": "Pihttam. Kuanam",
+          "translation": "Verde y Rojo",
+          "description": "",
+          "examples": []
+        },
+        {
+          "id": "9e01dcaef0059315b22287b6",
+          "lesson_number": 3,
+          "phrase": "Naram. Pɨshtam",
+          "phonetics": "Naram. Pishtam",
+          "translation": "Amarillo y Azul",
+          "description": "",
+          "examples": []
+        },
+        {
+          "id": "9e01dcae56604578385c8f54",
+          "lesson_number": 4,
+          "phrase": "Kajui. Mamaz ishtɨt",
+          "phonetics": "kajui. Mamaz ishtɨt",
+          "translation": "Café y Morado",
+          "description": "",
+          "examples": []
+        },
+        {
+          "id": "9e01dcaea58adb6864408777",
+          "lesson_number": 5,
+          "phrase": "Ishtam",
+          "phonetics": "Istham",
+          "translation": "Gris",
+          "description": "",
+          "examples": []
+        }
+      ],
+      "quiz": [
+        {
+          "id": "9e01dcaeaf60ee949362503c",
+          "question_number": 1,
+          "question": "Selecciona la correcta traducción para <b>Rojo</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Kwanam",
+          "options": [
+            "Kuano",
+            "Kwanam",
+            "Kwann",
+            "Naram"
+          ]
+        },
+        {
+          "id": "9e01dcae87b20232f432ecde",
+          "question_number": 2,
+          "question": "Escribe la correcta traducción para <b>Amarillo</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "naram",
+          "options": []
+        },
+        {
+          "id": "9e01dcae0803b2c03f3cee25",
+          "question_number": 3,
+          "question": "Selecciona la correcta traducción para <b>Café</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Kajui",
+          "options": [
+            "Kajui",
+            "kaji",
+            "Kijua",
+            "Kejum"
+          ]
+        },
+        {
+          "id": "9e01dcaed67b7f27776bad38",
+          "question_number": 4,
+          "question": "Selecciona la correcta traducción para <b>Blanco</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "pucha",
+          "options": []
+        },
+        {
+          "id": "9e01dcaed68baa6ef48add80",
+          "question_number": 5,
+          "question": "Selecciona la correcta traducción para <b>Azul</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Pɨshtam",
+          "options": [
+            "Pashmat",
+            "Pɨshtam",
+            "Pushmit",
+            "Pɨshtim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10e01dcae0e9b410552996c8f",
+      "exercise_number": 6,
+      "title": "Números en Awapit/Español",
+      "description": "Aprende a contar en ambos idiomas",
+      "lessons": [
+        {
+          "id": "9e01dcae8941c2463a7a918d",
+          "lesson_number": 1,
+          "phrase": "Maza - Paz",
+          "phonetics": "Maza - Paz",
+          "translation": "Uno, dos",
+          "description": "1 - 2",
+          "examples": []
+        },
+        {
+          "id": "9e01dcae5f3c81f55339ac4e",
+          "lesson_number": 2,
+          "phrase": "Kutña - Ampara",
+          "phonetics": "Kutña - Ampara",
+          "translation": "Tres - Cuatro",
+          "description": "3 - 4",
+          "examples": []
+        },
+        {
+          "id": "9e01dcaef0059315b22287b6",
+          "lesson_number": 3,
+          "phrase": "Chish - Wat",
+          "phonetics": "Chish - Wat",
+          "translation": "Cinco - Seis",
+          "description": "5 - 6",
+          "examples": []
+        },
+        {
+          "id": "9e01dcae56604578385c8f54",
+          "lesson_number": 4,
+          "phrase": "Pikam - Ita",
+          "phonetics": "Pikam - Ita",
+          "translation": "Siete - Ocho",
+          "description": "7 - 8",
+          "examples": []
+        },
+        {
+          "id": "9e01dcaea58adb6864408777",
+          "lesson_number": 5,
+          "phrase": "Tuil - Pachish",
+          "phonetics": "Tuil - Pachish",
+          "translation": "9 - 10",
+          "description": "",
+          "examples": []
+        }
+      ],
+      "quiz": [
+        {
+          "id": "9e01dcaeaf60ee949362503c",
+          "question_number": 1,
+          "question": "Selecciona la correcta traducción para <b>Cinco</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Chish",
+          "options": [
+            "Chas",
+            "Chems",
+            "Chish",
+            "Chush"
+          ]
+        },
+        {
+          "id": "9e01dcae87b20232f432ecde",
+          "question_number": 2,
+          "question": "Escribe la correcta traducción para <b>Tres</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "kutña",
+          "options": []
+        },
+        {
+          "id": "9e01dcae0803b2c03f3cee25",
+          "question_number": 3,
+          "question": "Selecciona la correcta traducción para <b>Nueve</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "tuil",
+          "options": []
+        },
+        {
+          "id": "9e01dcaed67b7f27776bad38",
+          "question_number": 4,
+          "question": "Selecciona la correcta traducción para <b>Dos</b>",
+          "type": "mcq",
+          "hint": "",
+          "correct_answer": "Paz",
+          "options": [
+            "Kutña",
+            "Pachish",
+            "Maza",
+            "Paz"
+          ]
+        },
+        {
+          "id": "9e01dcaed68baa6ef48add80",
+          "question_number": 5,
+          "question": "Selecciona la correcta traducción para <b>Ocho</b>",
+          "type": "type",
+          "hint": "Nota: Escribe tu respuesta con letras minúsculas",
+          "correct_answer": "ita",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

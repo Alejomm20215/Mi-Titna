@@ -1,0 +1,944 @@
+{
+    "created_at": "2022",
+    "modified_at": "2022",
+    "exercises": [
+      {
+        "id": "5e01dcaa0e9sf1876yui3c8f",
+        "exercise_number": 1,
+        "title": "Oraciones Cortas",
+        "description": "Oraciones cortas en Awá Pit",
+        "lessons": [
+          {
+            "id": "5e21dcae8941c246dea7ar18d",
+            "lesson_number": 1,
+            "phrase": "Nane",
+            "phonetics": "Nane",
+            "translation": "Yo",
+            "description": "Presentación personal",
+            "examples": [
+              {
+                "id": "5e01dcae8951c2463a7a914d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              },
+              {
+                "id": "5e01dcae8952c2463a7a014d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              }
+            ]
+          },
+          {
+            "id": "5e01dcdae5f3c81f55339af2e",
+            "lesson_number": 2,
+            "phrase": "Usne",
+            "phonetics": "Usne",
+            "translation": "Usted - Tu",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dcaef0059415b22287b6",
+            "lesson_number": 3,
+            "phrase": "Aune",
+            "phonetics": "Aune",
+            "translation": "Él - Ella",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dcae16604578385c8f58",
+            "lesson_number": 4,
+            "phrase": "Aune",
+            "phonetics": "Aune",
+            "translation": "Nosotros",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dca4558adb6864408787",
+            "lesson_number": 5,
+            "phrase": "Uruzne",
+            "phonetics": "Uruzne",
+            "translation": "Ustedes",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e10ftaea58adb6864408790",
+            "lesson_number": 6,
+            "phrase": "Uzpane",
+            "phonetics": "Uzpane",
+            "translation": "Ellos - Ellas",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dtaeajh7dt6863508777",
+            "lesson_number": 7,
+            "phrase": "2: Kamtammika chui kishna ɨnincha",
+            "phonetics": "2: Kamtammika chui kishna ɨnincha",
+            "translation": "profe, deme permiso voy al baño.",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01dtaea98adt680910889a",
+            "lesson_number": 8,
+            "phrase": "Kamtamika, pusnakacha pamtukie, ñakimaru, kuashu",
+            "phonetics": "Kamtamika, pusnakacha pamtukie, ñakimaru, kuashu",
+            "translation": "profe, ya vamos a salir tengo hambre, quiero comer.",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id": "5e01djh7198adt680910889a",
+            "lesson_number": 9,
+            "phrase": "Piluta satnɨshain",
+            "phonetics": "Piluta satnɨshain",
+            "translation": "vamos a jugar balón.",
+            "description": "Presentación personal",
+            "examples": []
+          },
+          {
+            "id":"4w3fgcasjhbb41asjkh5ragf",
+            "lesson_number":10,
+            "phrase": " Kamtamika tɨlawakima, aishtaish apu",
+            "phonetics":" Kamtamika tɨlawakima, aishtaish apu",
+            "translation":"Profe hasta mañana, muchas gracias",
+            "description": "Presentación personal",
+            "examples":[]
+          }
+        ],
+        "quiz": [
+          {
+            "id": "5e01dcjhnb10ee949362503c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Nane</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Yo",
+            "options": [
+              "Usted",
+              "Yo",
+              "Ella",
+              "Ellos"
+            ]
+          },
+          {
+            "id": "5e067tae87b20232f432ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Piluta satnɨshain</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "vamos a jugar balón",
+            "options": []
+          },
+          {
+            "id": "5e01dcalkjh9b2c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Kamtamika tɨlawakima, aishtaish apu</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Hasta mañana, muchas gracias",
+            "options": [
+              "Un placer",
+              "Buenos días",
+              "Hasta mañana, muchas gracias",
+              "Buenas noches"
+            ]
+          },
+          {
+            "id": "5e01dcaed67b7f27776bad38",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Aune</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "nosotros",
+            "options": []
+          },
+          {
+            "id": "5e01dcaed68baa6ef48add80",
+            "question_number": 5,
+            "question": "Selecciona la correcta traducción para <b>Nune</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Usted",
+            "options": [
+              "Yo",
+              "Usted",
+              "Nosotros",
+              "Ellas"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6e01dcae0e9gfb135ji76y8f",
+        "exercise_number": 2,
+        "title": "Cambios de Luna",
+        "description": "Fases lunares en Awá Pit",
+        "lessons": [
+          {
+            "id": "5e21dcae12d1c246dea7ar18d",
+            "lesson_number": 1,
+            "phrase": "Mɨlh payu",
+            "phonetics": "Mɨlh payu",
+            "translation": "Luna llena",
+            "description": "Fases Lunares",
+            "examples": [
+              {
+                "id": "5e01dcae8951c2463a7a914d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              },
+              {
+                "id": "5e01dcae8952c2463a7a014d",
+                "sentence": "Lorem ipsum dolor sit amet",
+                "translation": "consectetur adipiscing elit"
+              }
+            ]
+          },
+          {
+            "id": "5e01dcdasfg3c81f55339af2e",
+            "lesson_number": 2,
+            "phrase": "Maza kuna patapcha",
+            "phonetics": "Maza kuna padapcha",
+            "translation": "Primero creciente",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id": "5e01dasg30059415b22287b6",
+            "lesson_number": 3,
+            "phrase": "Pas kuna patapcha ",
+            "phonetics": "Pas kuna patapcha ",
+            "translation": "Segundo creciente",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id": "5e01dcae16604578385c8f58",
+            "lesson_number": 4,
+            "phrase": "Kutña kuna patapcha ",
+            "phonetics": "Kutña kuna padapcha ",
+            "translation": "Tercer creciente",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id": "5e01dca4558adb68644asf27",
+            "lesson_number": 5,
+            "phrase": "Ampata kuna patapcha",
+            "phonetics": "Ampata kuna padapcha",
+            "translation": "Cuarto creciente",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id": "5e10ftaea58adbasf2408790",
+            "lesson_number": 6,
+            "phrase": "Maza mɨhkitkue",
+            "phonetics": "Maza mɨhkitkue",
+            "translation": "Primero menguante",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id": "5e01das4ajh7dt6863508777",
+            "lesson_number": 7,
+            "phrase": "Pas mɨhkitkue ",
+            "phonetics": "Pas mɨhkitkue ",
+            "translation": "Segundo menguante",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id": "5e01dta12g8adt680910889a",
+            "lesson_number": 8,
+            "phrase": "Kutña mɨhkitkue",
+            "phonetics": "Kutña mɨhkitkue",
+            "translation": "Tercera menguante",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id": "5e01djhqw28adt680910889a",
+            "lesson_number": 9,
+            "phrase": "Ampata mɨhkitkue ",
+            "phonetics": "Ampata mɨhkitkue ",
+            "translation": "Cuarto menguante",
+            "description": "Fases Lunares",
+            "examples": []
+          },
+          {
+            "id":"4w3fgcasjhbbaq1sjkh5ragf",
+            "lesson_number":10,
+            "phrase": "Chish mɨhkitkue",
+            "phonetics":"Chish mɨhkitkue",
+            "translation":"Quinto menguante",
+            "description": "Fases Lunares",
+            "examples":[]
+          }
+        ],
+        "quiz": [
+          {
+            "id": "6e01d2fegf60hhjasdx2503c",
+            "question_number": 1,
+            "question": "¿Qué significa <b>Cuarto menguante</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Ampata mɨhkitkue",
+            "options": [
+              "kitkue",
+              "Ampata kue",
+              "Ampata mɨhkitkue",
+              "Nutri kue"
+            ]
+          },
+          {
+            "id": "8e01dcae8742b21rf432ecde",
+            "question_number": 2,
+            "question": "¿Qué significa <b>Ampata kuna patapcha</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "cuarto creciente",
+            "options": []
+          },
+          {
+            "id": "6e1asd900803bjhgb63ce325",
+            "question_number": 3,
+            "question": "¿Qué significa <b>Pas mɨhkitkue</b>?",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Segundo menguante",
+            "options": [
+              "Primero creciente",
+              "Luna llena",
+              "Segundo menguante",
+              "Segundo creciente"
+            ]
+          },
+          {
+            "id": "6e01dtued12f7kju986bad96",
+            "question_number": 4,
+            "question": "¿Qué significa <b>Maza kuna patapcha</b>?",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "Primero creciente",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "7e01dcae0e9b41085kiue32d",
+        "exercise_number": 3,
+        "title": "Ropa",
+        "description": "Ropa en Awá Pit",
+        "lessons": [
+          {
+            "id": "7e01dasf1255624nhkiu128d",
+            "lesson_number": 1,
+            "phrase": "Kua kisham - Pin",
+            "phonetics": "Kua kisham - Pin",
+            "translation": "Vestido - Falda",
+            "description": "La ropa en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcae5f3c12yui75asdg3",
+            "lesson_number": 2,
+            "phrase": "Tamajawa - Tɨt suta",
+            "phonetics": "Tamajakua - Tɨt suta",
+            "translation": "Tamajagua - Sombrero",
+            "description": "La ropa en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaef0fs9h09opuip9b6",
+            "lesson_number": 3,
+            "phrase": "Aish utam - Pantarun",
+            "phonetics": "Aish utam - Pantarun",
+            "translation": "Peineta - Pantalón",
+            "description": "La ropa en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcaef225889632t43h3",
+            "lesson_number": 4,
+            "phrase": "Puyun - Mittɨ nukmu",
+            "phonetics": "Puyun - Mittɨ nukmu",
+            "translation": "Ropa interior - Medias",
+            "description": "La ropa en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcjuy74asg12hgt43h3",
+            "lesson_number": 5,
+            "phrase": "Kimisha -  Andiru",
+            "phonetics": "Kimisha -  Andiru",
+            "translation": "Camisa - Gorra",
+            "description": "La ropa en Awá pit",
+            "examples": []
+          },
+          {
+            "id": "7e01dcjuiy7asfvghgt43h3",
+            "lesson_number": 6,
+            "phrase": "Pin - Ulam",
+            "phonetics": "Pin - Ulam",
+            "translation": "Enagua - Peineta",
+            "description": "La ropa en Awá pit",
+            "examples": []
+          }
+
+        ],
+        "quiz": [
+          {
+            "id": "7e01ddiu8912trg49t42503d",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Mittɨ nukmu</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "medias",
+            "options": []
+          },
+          {
+            "id": "7e01dcae82g2kasfgh32ekde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Pin</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "enagua",
+            "options": []
+          },
+          {
+            "id": "7e01dloi8asf21c03f3cee25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Pantarun</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Pantalón",
+            "options": [
+              "Medias",
+              "Pantalón",
+              "Camisa",
+              "Peineta"
+            ]
+          },
+          {
+            "id": "7e01dcaed124fa20c76kjh5",
+            "question_number": 4,
+            "question": "Escribe la correcta traducción para <b>Tɨt suta</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "sombrero",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "1e3fgcas0elkj87sfe396agf",
+        "exercise_number": 4,
+        "title": "Acciones I",
+        "description": "Acciones en el Awá pit",
+        "lessons": [
+          {
+            "id": "9e01dcaklkj542213a7a021s",
+            "lesson_number": 1,
+            "phrase": "Katkinɨmtus - Pɨh Kamnɨrɨmtus ",
+            "phonetics": "Kalkinɨmtus - Pɨh Kamnɨrɨmtus ",
+            "translation": "Me voy a trabajar - Me voy a estudiar",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5f3c098oimkjiu4e",
+            "lesson_number": 2,
+            "phrase": "Aĩnanaish - Pitnɨmaru ",
+            "phonetics": "Aĩnanaish - Pitnɨmaru ",
+            "translation": "Voy a cocinar -  Me voy a dormir",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaeflkoi5kji32287b6",
+            "lesson_number": 3,
+            "phrase": "Pishkaru Kinɨrɨmtus",
+            "phonetics": "Pishkaru Kinɨrɨmtus",
+            "translation": "Me voy a pescar",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5hjg6578385c8f54",
+            "lesson_number": 4,
+            "phrase": "Pitas o pinɨmaru - Pala Kuashu",
+            "phonetics": "Pitas o pinɨmaru - Pala Kuashu",
+            "translation": "Me voy a bañar - Quiero comer",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaea58aasdmnkjnb777",
+            "lesson_number": 5,
+            "phrase": "Kalpa sainɨmaru - Kitnus ",
+            "phonetcs": "Kalpa sainɨmaru - Kitnus ",
+            "translation": "Me voy de cacería - Listo",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dca23tyaasdmnkjnb777",
+            "lesson_number": 6,
+            "phrase": "Kalkinɨmtumakpas - Salnɨru",
+            "phonetcs": "Kalkinɨmtumakpas - Salnɨru",
+            "translation": "Me voy a la minga - me voy a jugar",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaea5lk67hmnkjnb777",
+            "lesson_number": 7,
+            "phrase": "Wanmaknɨmtumakpas - Kitnus",
+            "phonetcs": "Wanmaknɨmtumakpas - Kitnus",
+            "translation": "Me voy a la reunión - Estoy lavando",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcajkhu667hmnkjnb777",
+            "lesson_number": 8,
+            "phrase": "Pishta chanɨmaru  - Sɨ kuanɨru",
+            "phonetcs": "Pishta chanɨmaru - Sɨ kuanɨru",
+            "translation": "Voy a la fiesta -  Voy a cargar leña",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9e01dcaasd23ee94mnb6703c",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Pishkaru Kinɨrɨmtus</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Me voy a pescar",
+            "options": [
+              "Me voy a jugar",
+              "Vamos a comer",
+              "Me voy a pescar",
+              "Estoy jugando"
+            ]
+          },
+          {
+            "id": "9e01dcae832sdalkj872ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Salnɨru</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "me voy a jugar",
+            "options": []
+          },
+          {
+            "id": "9e01dcae08asdvbi3126tf25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Estoy lavando</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Kitnus",
+            "options": [
+              "Kotoaz",
+              "Kitnash",
+              "Kitnus",
+              "Akisha"
+            ]
+          },
+          {
+            "id": "9e01dcaasd127ferfopi0138",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Pishta chanɨmaru</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "voy a la fiesta",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0e9987ylkjrc8f",
+        "exercise_number": 5,
+        "title": "Oraciones básicas I",
+        "description": "Interacciones comúnes en el idioma",
+        "lessons": [
+          {
+            "id": "9e016ce89123fdel980uy21",
+            "lesson_number": 1,
+            "phrase": "¿Watzal kɨnmari pɨh kammuruz misha matpaz?  Watmin kamtamika ",
+            "phonetics": "¿Watzal kɨnmari pɨh kammuruz misha matpaz?  Watmin kamtamika ",
+            "translation": "¿Buenos días estudiantes cómo están? Bien profesor",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "9w01dcae5f3lootrf4kjhi1",
+            "lesson_number": 2,
+            "phrase": "¿Misha pamtui?",
+            "phonetics": "¿Misha pamtui?",
+            "translation": "¿Qué hora es? ",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1i59lkjnh5437b6",
+            "lesson_number": 3,
+            "phrase": "kwashi kwashu - Yakiru mɨhjish",
+            "phonetics": "kwashi kwashu - Yakiru mɨhjish",
+            "translation": "Tengo sed - Tengo hambre ",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dcjeasdg3ko89h768f51",
+            "lesson_number": 4,
+            "phrase": "chui kishna  ɨnincha",
+            "phonetics": "chui kishna  ɨnincha",
+            "translation": "¿Permiso para ir al baño",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g106asdvb768f51",
+            "lesson_number": 5,
+            "phrase": "Aishtaih apu (abu)",
+            "phonetics": "Aishtaih apu (abu)",
+            "translation": "Muchas gracias",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dcjelkjtrasdvb768f51",
+            "lesson_number": 6,
+            "phrase": "Uznaka apu watkanashi",
+            "phonetics": "Uznaka apu watkanashi",
+            "translation": "Siéntese por favor ",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dckjh76trasdvb768f51",
+            "lesson_number": 7,
+            "phrase": "Pῡñapari watkanashi",
+            "phonetics": "Pῡñapari watkanashi",
+            "translation": "Silencio por favor",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dckjh0965ysdvb768f51",
+            "lesson_number": 8,
+            "phrase": "wat mɨrain",
+            "phonetics": "wat mɨrain",
+            "translation": "Escuchen con atención",
+            "description": "Oraciones básicas",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9b04d12rt5asd32iuo87203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Tengo hambre</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Yakiru mɨhjish",
+            "options": [
+              "Yakiru mɨhjish",
+              "Yaku ish",
+              "Yakiru",
+              "mɨsh"
+            ]
+          },
+          {
+            "id": "9e01dcae8as12356d432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Pῡñapari watkanashi</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "silencio por favor",
+            "options": []
+          },
+          {
+            "id": "9e09867g38has45ty63c2125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>wat mɨrain</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Escuchen con atención",
+            "options": [
+              "Escuchen con atención",
+              "Muchas gracias",
+              "Vamos a comer",
+              "Hasta luego"
+            ]
+          },
+          {
+            "id": "91t1dcaed54avfg5frebad3a",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>¿Misha pamtui?</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "¿qué hora es?",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "1e3fgcas124rt87sfe396agf",
+        "exercise_number": 6,
+        "title": "Acciones II",
+        "description": "Acciones en el Awá pit",
+        "lessons": [
+          {
+            "id": "9e01dcaklkj5422112fds21s",
+            "lesson_number": 1,
+            "phrase": "Muzu puramal chanɨru",
+            "phonetics": "Muzu puramal chanɨru",
+            "translation": "Me voy al pueblo ",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaelkjoi98oimkjiu4e",
+            "lesson_number": 2,
+            "phrase": "Ishnus - Painɨmarau",
+            "phonetics": "Ishnus - Painɨmarau",
+            "translation": "Estoy enfermo -  Me voy a comprar",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaeflkoi5kji32asfbg",
+            "lesson_number": 3,
+            "phrase": "Pimal chanɨru - Alu kimtuĩ",
+            "phonetics": "Pimal chanɨru - Alu kimtuĩ",
+            "translation": "Me voy al río - Está lloviendo",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcae5hjg65781243ff54",
+            "lesson_number": 4,
+            "phrase": "Pã matnus - Naishnuĩ",
+            "phonetics": "Pã matnus - Naishnuĩ",
+            "translation": "Está haciendo sol -  Está tarde",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dcaea5lkoi8mnkjnb777",
+            "lesson_number": 5,
+            "phrase": "Amta ĩ - Ĩ kimnus ",
+            "phonetcs": "Amta ĩ - Ĩ kimnus ",
+            "translation": "Está de noche - Está frío",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01dca23124tfdmnkjnb777",
+            "lesson_number": 6,
+            "phrase": "Pɨh kamnɨmaru" ,
+            "phonetcs": "Pɨh kamnɨmaru" ,
+            "translation": "Me voy a la escuela",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          },
+          {
+            "id": "9e01d123relk67hmnkjnb5th",
+            "lesson_number": 7,
+            "phrase": "Yalmal ɨru",
+            "phonetcs": "Yalmal ɨru",
+            "translation": "Me voy a la casa",
+            "description": "Acciones en Awá Pit",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9e01dcaasd23ee94mnb9086y",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Alu kimtuĩ</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Está lloviendo",
+            "options": [
+              "Está lloviendo",
+              "Quiero comer",
+              "Me voy a jugar",
+              "Está haciendo sol"
+            ]
+          },
+          {
+            "id": "9e01dcae832sd1254f72ecde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>Pɨh kamnɨmaru</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "me voy a la escuela",
+            "options": []
+          },
+          {
+            "id": "9e01dcae08aash543126tf25",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Alu kimtuĩ</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "Está lloviendo",
+            "options": [
+              "Me voy a dormir",
+              "Vamos a la minga",
+              "Está lloviendo",
+              "Me voy a jugar"
+            ]
+          },
+          {
+            "id": "09oidcaasd127ferfopi0138",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Muzu puramal chanɨru</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "me voy al pueblo",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "9e01dcae0kjo87ylkjrc8f",
+        "exercise_number": 7,
+        "title": "Oraciones básicas II",
+        "description": "Interacciones comúnes en el idioma",
+        "lessons": [
+          {
+            "id": "9e016ce891090iul980uy21",
+            "lesson_number": 1,
+            "phrase": "Kat zarachish - Zatnɨshain ",
+            "phonetics": "Kat zarachish - Zatnɨshain ",
+            "translation": "No hice la tarea - vamos a jugar",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "9w01dcae5f3124tdf4kjhi1",
+            "lesson_number": 2,
+            "phrase": "Wan watzarain wat kanashi",
+            "phonetics": "Wan watzarain wat kanashi",
+            "translation": "Guarden todo por favor",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "y3t1dcaef1i59lkasfg537b6",
+            "lesson_number": 3,
+            "phrase": "Chiwat - Washaa",
+            "phonetics": "Chiwat - Washaa",
+            "translation": "No - Si",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dcjeasdghgbj5h768f51",
+            "lesson_number": 4,
+            "phrase": "nɨrain -  parain",
+            "phonetics": "nɨrain -  parain",
+            "translation": "Pinten - Escriban",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dcje5g45thjdvb768f51",
+            "lesson_number": 5,
+            "phrase": "Shikish ma aznus",
+            "phonetics": "Shikish ma aznus",
+            "translation": "¿Por qué llora?",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dcjeldsg76sdvb768f51",
+            "lesson_number": 6,
+            "phrase": "mattus",
+            "phonetics": "matnus",
+            "translation": "Tengo calor",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dckjh709piodvb768f51",
+            "lesson_number": 7,
+            "phrase": "Maza pit mɨmashimtus",
+            "phonetics": "Maza pit mɨmashimtus",
+            "translation": "Tengo una pregunta",
+            "description": "Oraciones básicas",
+            "examples": []
+          },
+          {
+            "id": "2t01dckjh0965ysdvb712weq",
+            "lesson_number": 8,
+            "phrase": "kwaishtɨt ish",
+            "phonetics": "kwaishtɨt ish",
+            "translation": "Estoy cansado",
+            "description": "Oraciones básicas",
+            "examples": []
+          }
+        ],
+        "quiz": [
+          {
+            "id": "9basxvert5asd32iuo87203a",
+            "question_number": 1,
+            "question": "Selecciona la correcta traducción para <b>Tengo calor</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "mattus",
+            "options": [
+              "mattusha",
+              "matte",
+              "mattus",
+              "kukuma"
+            ]
+          },
+          {
+            "id": "9e01dcae12r54356d432ucde",
+            "question_number": 2,
+            "question": "Escribe la correcta traducción para <b>parain</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "escriban",
+            "options": []
+          },
+          {
+            "id": "9e09867gasg4345ty63c2125",
+            "question_number": 3,
+            "question": "Selecciona la correcta traducción para <b>Chiwat</b>",
+            "type": "mcq",
+            "hint": "",
+            "correct_answer": "No",
+            "options": [
+              "Si",
+              "No",
+              "Bueno",
+              "Claro"
+            ]
+          },
+          {
+            "id": "91t1lkj0954avfg5frebad3a",
+            "question_number": 4,
+            "question": "Selecciona la correcta traducción para <b>Kat zarachish</b>",
+            "type": "type",
+            "hint": "Nota: Escribe tu respuesta con letras minúsculas y tildes",
+            "correct_answer": "no hice la tarea",
+            "options": []
+          }
+        ]
+      }
+    ]
+  }
+  

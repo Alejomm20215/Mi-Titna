@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.quiz.QuizFragment">
+
+    <data>
+        <import type="android.view.View" />
+        <import type="com.example.mititna.ui.quiz.QuizViewModel.QuizState"/>
+
+        <variable
+            name="viewmodel"
+            type="com.example.mititna.ui.quiz.QuizViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/white"
+        android:id="@+id/frameLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/start_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="0dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/end_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+        <ImageButton
+            android:id="@+id/btn_close_quiz"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/S"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/game_progress"
+            app:layout_constraintStart_toStartOf="@+id/start_margin"
+            app:layout_constraintTop_toTopOf="@+id/game_progress"
+            bind:srcCompat="@drawable/ic_close"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+
+        <ProgressBar
+            android:id="@+id/game_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:max="100"
+            android:progress="@{viewmodel.progress}"
+            app:layout_constraintEnd_toStartOf="@+id/life_indicator"
+            app:layout_constraintStart_toEndOf="@+id/btn_close_quiz"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/life_indicator"
+            layout="@layout/life_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/game_progress"
+            app:layout_constraintEnd_toStartOf="@+id/end_margin"
+            app:layout_constraintTop_toTopOf="@+id/game_progress"
+            bind:viewmodel="@{viewmodel}" />
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
+            android:text="@{viewmodel.formatHtml(viewmodel.question.question)}"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toStartOf="@+id/end_margin"
+            app:layout_constraintStart_toStartOf="@+id/start_margin"
+            app:layout_constraintTop_toBottomOf="@+id/game_progress"
+            tools:text="What does Queso means?" />
+
+        <include
+            android:id="@+id/mcq_answer_view"
+            layout="@layout/mcq_answer_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:visibility='@{"mcq".equals(viewmodel.question.questionType) ? View.VISIBLE : View.GONE, default = gone}'
+            tools:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@id/end_margin"
+            app:layout_constraintStart_toStartOf="@id/start_margin"
+            app:layout_constraintTop_toBottomOf="@+id/question_textview_barrier"
+            bind:viewmodel="@{viewmodel}" />
+
+        <include
+            android:id="@+id/type_answer_view"
+            layout="@layout/type_answer_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:visibility='@{"type".equals(viewmodel.question.questionType) ? View.VISIBLE : View.GONE, default = gone}'
+            app:layout_constraintEnd_toEndOf="@id/end_margin"
+            app:layout_constraintStart_toStartOf="@id/start_margin"
+            app:layout_constraintTop_toBottomOf="@+id/question_textview_barrier"
+            bind:viewmodel="@{viewmodel}" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/question_textview_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="tv_question"
+            tools:layout_editor_absoluteY="731dp" />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/buttoncheckdraw"
+            android:enabled='@{"".equals(viewmodel.userAnswer) ? false : true}'
+            android:onClick="@{viewmodel::checkAnswer}"
+            android:text="@{viewmodel.quizState == QuizState.NOT_ANSWERED ? @string/check_answer_btn_title : @string/continue_str}"
+            android:textColor="@color/button_task_continue"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/end_margin"
+            app:layout_constraintStart_toStartOf="@+id/start_margin"
+            app:layout_constraintTop_toBottomOf="@+id/message"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <include
+            android:id="@+id/message"
+            layout="@layout/banner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="@{viewmodel.quizState == QuizState.NOT_ANSWERED ? View.GONE : View.VISIBLE, default = gone}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/start_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            bind:viewmodel="@{viewmodel}"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
