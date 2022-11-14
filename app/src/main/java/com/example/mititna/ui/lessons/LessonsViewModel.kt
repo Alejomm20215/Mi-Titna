@@ -37,7 +37,6 @@ class LessonsViewModel(
             when (lessons.value?.size ?: 0) {
                 0 -> {
                     // no lessons available
-                    //TODO: show text on screen
                 }
                 1 -> {
                     _lesson.value = lessons.value?.get(0)

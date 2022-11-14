@@ -50,7 +50,7 @@ object ParseJsonDataFile {
         val json: String? = try {
             val `is`: InputStream = context.resources.openRawResource(
                 context.resources.getIdentifier(
-                    "module_1",
+                    module,
                     "raw",
                     context.packageName
                 )

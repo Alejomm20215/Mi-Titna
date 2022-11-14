@@ -12,7 +12,8 @@ class App : Application() {
 
     // Depends on the flavor,
     val repository: Repository
-        get() = ServiceLocator.provideRepository(this)
+        get() = ServiceLocator.provideRepository(this, Modules.MODULE_1.module)
+
 
     override fun onCreate() {
         super.onCreate()

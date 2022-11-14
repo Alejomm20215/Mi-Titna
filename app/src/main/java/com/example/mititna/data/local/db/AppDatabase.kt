@@ -46,7 +46,7 @@ abstract class AppDatabase : RoomDatabase() {
                         "Mi_Titna_App"
                     )
                         .fallbackToDestructiveMigration()
-                        .addCallback(object : RoomDatabase.Callback() {
+                        .addCallback(object : Callback() {
                             override fun onCreate(db: SupportSQLiteDatabase) {
                                 super.onCreate(db)
                                 Executors.newSingleThreadExecutor().execute {
@@ -54,7 +54,6 @@ abstract class AppDatabase : RoomDatabase() {
                                         val (exercises, lessons, questions) = ParseJsonDataFile.parse(
                                             context, module
                                         )
-
                                         db.exerciseDao().insertAll(exercises)
                                         db.lessonDao().insertAll(lessons)
                                         db.questionDao().insertAll(questions)

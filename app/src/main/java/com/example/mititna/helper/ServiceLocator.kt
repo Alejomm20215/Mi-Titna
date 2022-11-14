@@ -13,9 +13,9 @@ object ServiceLocator {
 
     @Volatile private var repository: Repository? = null
 
-    fun provideRepository(context: Context): Repository {
+    fun provideRepository(context: Context, module: String): Repository {
         synchronized(this) {
-            return repository ?: repository ?: createRepository(context, "module_1")
+            return repository ?: repository ?: createRepository(context, module)
         }
     }
 

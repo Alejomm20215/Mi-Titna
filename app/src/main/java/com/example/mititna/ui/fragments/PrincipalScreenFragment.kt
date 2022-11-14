@@ -18,12 +18,19 @@ class PrincipalScreenFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding  = FragmentPrincipalScreenBinding.inflate(layoutInflater)
+        clickListeners()
+        return binding.root
+    }
 
+    private fun clickListeners(){
+
+
+        //Activity change click listeners
         binding.chartContainer2.setOnClickListener {
             val intent = Intent(this@PrincipalScreenFragment.requireContext(), AboutAct::class.java)
             startActivity(intent)
         }
-
+        //Open Modules listeners
         binding.module1.setOnClickListener {
             val intent = Intent(this@PrincipalScreenFragment.requireContext(), Module_1::class.java)
             startActivity(intent)
@@ -44,7 +51,5 @@ class PrincipalScreenFragment : Fragment() {
             val intent = Intent(this@PrincipalScreenFragment.requireContext(), Module5::class.java)
             startActivity(intent)
         }
-
-        return binding.root
     }
 }

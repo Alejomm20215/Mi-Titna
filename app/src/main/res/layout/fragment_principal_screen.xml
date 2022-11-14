@@ -19,7 +19,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bghomescreen">
+        android:background="@drawable/imagereduced">
 
         <TextView
             android:id="@+id/a_trabajar"
@@ -122,7 +122,7 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="1.0"
-                            app:srcCompat="@drawable/path1img" />
+                            app:srcCompat="@drawable/path1" />
 
                         <TextView
                             android:id="@+id/text"
@@ -164,7 +164,7 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="1.0"
-                            app:srcCompat="@drawable/pathcapimg" />
+                            app:srcCompat="@drawable/pathcapi" />
 
                         <TextView
                             android:id="@+id/text1"
@@ -207,7 +207,7 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="1.0"
-                            app:srcCompat="@drawable/path3img" />
+                            app:srcCompat="@drawable/path3" />
 
                         <TextView
                             android:id="@+id/text2"
@@ -249,7 +249,7 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="1.0"
-                            app:srcCompat="@drawable/path2img" />
+                            app:srcCompat="@drawable/path2" />
 
                         <TextView
                             android:id="@+id/text3"
@@ -291,7 +291,7 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="1.0"
-                            app:srcCompat="@drawable/path5img" />
+                            app:srcCompat="@drawable/path5" />
 
                         <TextView
                             android:id="@+id/text4"

@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.538"
-        app:srcCompat="@drawable/mititnalogo" />
+        app:srcCompat="@drawable/logomitit" />
 
     <TextView
         android:id="@+id/textView2"
