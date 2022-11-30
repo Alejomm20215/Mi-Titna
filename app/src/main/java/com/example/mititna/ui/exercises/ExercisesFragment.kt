@@ -1,11 +1,11 @@
 package com.example.mititna.ui.exercises
 
 
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,7 +16,7 @@ import com.example.mititna.helper.getViewModelFactory
 class ExercisesFragment : Fragment() {
 
     private val viewModel by viewModels<ExercisesViewModel> { getViewModelFactory() }
-
+    var mMediaPlayer : MediaPlayer? = null
     private lateinit var dataBinding: FragmentExercisesBinding
     private lateinit var exercisesAdapter: ExercisesAdapter
 
@@ -30,7 +30,6 @@ class ExercisesFragment : Fragment() {
         setHasOptionsMenu(true)
         return dataBinding.root
     }
-
     @Deprecated("Deprecated in Java")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
@@ -49,22 +48,10 @@ class ExercisesFragment : Fragment() {
         inflater.inflate(R.menu.main_menu, menu)
     }
 
-    @Deprecated("Deprecated in Java")
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_settings -> {
-                openSettingsFragment()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
-
-
     private fun setupLiveObservers() {
-        viewModel.exercises.observe(viewLifecycleOwner, Observer {
+        viewModel.exercises.observe(viewLifecycleOwner) {
             exercisesAdapter.refreshData(it)
-        })
+        }
     }
 
     private fun setupRecyclerView() {
@@ -86,10 +73,27 @@ class ExercisesFragment : Fragment() {
         findNavController().navigate(action)
     }
 
-    private fun openSettingsFragment() {
-        val action =
-            ExercisesFragmentDirections.actionExercisesFragmentToSettingsFragment()
-        findNavController().navigate(action)
+    private fun playSound(){
+        if(mMediaPlayer == null){
+            mMediaPlayer = MediaPlayer.create(this,R.raw.marimbacompressed)
+            mMediaPlayer!!.isLooping = true
+            mMediaPlayer!!.start()
+        } else mMediaPlayer!!.start()
+    }
+    fun pauseSound(){ if(mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()}
+    fun stopSound(){
+        if(mMediaPlayer != null) {
+            mMediaPlayer!!.stop()
+            mMediaPlayer!!.release()
+            mMediaPlayer = null
+        }
     }
 
+    override fun onStop() {
+        super.onStop()
+        if(mMediaPlayer != null){
+            mMediaPlayer!!.release()
+            mMediaPlayer = null
+        }
+    }
 }
