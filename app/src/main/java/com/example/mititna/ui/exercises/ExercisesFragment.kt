@@ -73,27 +73,4 @@ class ExercisesFragment : Fragment() {
         findNavController().navigate(action)
     }
 
-    private fun playSound(){
-        if(mMediaPlayer == null){
-            mMediaPlayer = MediaPlayer.create(this,R.raw.marimbacompressed)
-            mMediaPlayer!!.isLooping = true
-            mMediaPlayer!!.start()
-        } else mMediaPlayer!!.start()
-    }
-    fun pauseSound(){ if(mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()}
-    fun stopSound(){
-        if(mMediaPlayer != null) {
-            mMediaPlayer!!.stop()
-            mMediaPlayer!!.release()
-            mMediaPlayer = null
-        }
-    }
-
-    override fun onStop() {
-        super.onStop()
-        if(mMediaPlayer != null){
-            mMediaPlayer!!.release()
-            mMediaPlayer = null
-        }
-    }
 }

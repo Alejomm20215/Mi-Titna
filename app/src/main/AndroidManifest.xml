@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mititna">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
@@ -16,7 +18,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
+
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:theme="@style/NoActionBar"
+        android:name=".HomePuzzles"
+        android:exported="false"
+        android:label="@string/title_homepuzzles">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:theme="@style/NoActionBar"
+            android:name=".MainMemory"
+            android:exported="false"
+            android:label="@string/title_main_puz">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:name=".volconfiguration"
+            android:exported="false"
+            android:label="@string/title_activity_volconfiguration"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".AboutAct"
             android:exported="false">
             <meta-data
@@ -24,6 +64,8 @@
                 android:value="" />
         </activity>
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".Module5"
             android:exported="false">
             <meta-data
@@ -31,6 +73,8 @@
                 android:value="" />
         </activity>
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".Module4"
             android:exported="false">
             <meta-data
@@ -38,6 +82,8 @@
                 android:value="" />
         </activity>
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".Module3"
             android:exported="false">
             <meta-data
@@ -45,6 +91,8 @@
                 android:value="" />
         </activity>
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".Module2"
             android:exported="false">
             <meta-data
@@ -52,16 +100,21 @@
                 android:value="" />
         </activity>
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".Module_1"
             android:exported="true" />
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".MainActivity"
             android:exported="true" />
         <activity
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/SplashTheme"
-            >
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

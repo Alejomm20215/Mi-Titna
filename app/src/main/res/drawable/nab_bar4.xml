@@ -3,6 +3,9 @@
     <item>
         <shape>
             <corners android:radius="100dp"/>
+            <stroke android:color="#55311B"
+                android:width="15dp"
+                />
             <solid android:color="@color/bottom_games" />
         </shape>
     </item>

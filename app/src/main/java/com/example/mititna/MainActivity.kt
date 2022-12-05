@@ -1,6 +1,7 @@
 package com.example.mititna
 
 import android.annotation.SuppressLint
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +13,7 @@ import np.com.susanthapa.curved_bottom_navigation.CbnMenuItem
 
 class MainActivity : AppCompatActivity() {
 
+    private var mMediaPlayer : MediaPlayer? = null
     private lateinit var binding: ActivityMainBinding
 
     @SuppressLint("PrivateResource", "ResourceAsColor", "UseCompatLoadingForDrawables")
@@ -19,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        playSound()
 
         val activeIndex = savedInstanceState?.getInt("activeIndex") ?: 2
         val navController = findNavController(R.id.nav_host_fragment)
@@ -73,6 +76,32 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         finish()
+    }
+    private fun playSound(){
+        if(mMediaPlayer == null){
+            mMediaPlayer = MediaPlayer.create(this, R.raw.marimbacompressed)
+            mMediaPlayer!!.isLooping = true
+            mMediaPlayer?.start()
+        } else mMediaPlayer?.start()
+    }
+    fun pauseSound() {
+        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
+    }
+
+    fun stopSound() {
+        if (mMediaPlayer != null) {
+            mMediaPlayer!!.stop()
+            mMediaPlayer!!.release()
+            mMediaPlayer = null
+        }
+    }
+
+    override fun onStop() {
+        super.onStop()
+        if (mMediaPlayer != null) {
+            mMediaPlayer!!.release()
+            mMediaPlayer = null
+        }
     }
 
 }

@@ -9,7 +9,7 @@
         android:id="@+id/scrollVi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/Text_oneColor"
+        android:background="@drawable/imgbggamescomp"
         android:fillViewport="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -23,7 +23,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/card_margin"
-                app:cardBackgroundColor="@color/statistics_group_background"
+                android:background="@drawable/cardcharts1"
+                app:cardBackgroundColor="#DF203A13"
                 app:cardCornerRadius="@dimen/card_corner_radius"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +32,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cardcharts1">
 
                     <TextView
                         android:id="@+id/successRateGroupTitle"
@@ -40,15 +42,15 @@
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/audiowide"
                         android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_success_rate"
+                        android:text="Análisis Gráfico"
                         android:textAppearance="@style/StatisticsGroupTitle"
-                        android:textColor="@color/statistics_text"
+                        android:textColor="#B9CCB9"
                         android:textSize="32sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <com.github.mikephil.charting.charts.LineChart
+                    <com.jjoe64.graphview.GraphView
                         android:id="@+id/lineChart"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
@@ -58,8 +60,10 @@
                         android:background="#B8AE6E"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/successRateGroupTitle" />
+                        app:layout_constraintTop_toBottomOf="@+id/successRateGroupTitle"
+                        app:layout_constraintVertical_bias="0.0" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -70,6 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#EDBFEABC"
                 app:cardCornerRadius="@dimen/card_corner_radius"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -102,7 +107,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_attempts"
+                        android:text="INTENTOS"
                         android:textAppearance="@style/StatisticsGroupTitle"
                         android:textColor="@color/statistics_text"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -128,7 +133,6 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/app_name"
                         android:textAppearance="@style/StatisticsValue"
                         app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide1"
                         app:layout_constraintTop_toBottomOf="@+id/attemptsGroupTitle"
@@ -140,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_correct"
+                        android:text="correcto"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/correctAttemptsValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
@@ -153,7 +157,6 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/app_name"
                         android:textAppearance="@style/StatisticsValue"
                         app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide1"
                         app:layout_constraintTop_toBottomOf="@+id/totalAttemptsValue"
@@ -165,7 +168,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_incorrect"
+                        android:text="incorrecto"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/incorrectAttemptsValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
@@ -178,7 +181,6 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/app_name"
                         android:textAppearance="@style/StatisticsValue"
                         app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide1"
                         app:layout_constraintTop_toBottomOf="@+id/correctAttemptsValue"
@@ -190,7 +192,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_success_rate"
+                        android:text="racha de suceso"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/successRateValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
@@ -203,7 +205,6 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/app_name"
                         android:textAppearance="@style/StatisticsValue"
                         app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide1"
                         app:layout_constraintTop_toBottomOf="@+id/incorrectAttemptsValue"
@@ -216,7 +217,7 @@
                         android:layout_marginStart="8dp"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_time_practicing"
+                        android:text="horas practicando"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/timePracticingValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
@@ -230,7 +231,6 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_horizontal"
-                        android:text="@string/app_name"
                         android:textAppearance="@style/StatisticsValue"
                         app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide1"
                         app:layout_constraintTop_toBottomOf="@+id/successRateValue"
@@ -258,162 +258,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardViewAttempts">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <androidx.constraintlayout.widget.Guideline
-                        android:id="@+id/verticalCenterGuide2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        app:layout_constraintGuide_percent="0.5" />
-
-                    <Space
-                        android:id="@+id/exercisesBottomSpace"
-                        android:layout_width="wrap_content"
-                        android:layout_height="16dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/percentagePracticedExercisesValue" />
-
-                    <View
-                        android:id="@+id/exercisesSeparator"
-                        android:layout_width="2dp"
-                        android:layout_height="0dp"
-                        android:background="@color/statistics_line_separator"
-                        app:layout_constraintBottom_toBottomOf="@+id/percentagePracticedExercisesValue"
-                        app:layout_constraintEnd_toEndOf="@+id/exercisesGroupTitle"
-                        app:layout_constraintStart_toStartOf="@+id/exercisesGroupTitle"
-                        app:layout_constraintTop_toTopOf="@+id/totalExercisesValue" />
-
-                    <TextView
-                        android:id="@+id/exercisesGroupTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_exercises"
-                        android:textAppearance="@style/StatisticsGroupTitle"
-                        android:textColor="@color/statistics_text"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/totalExercisesTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_total"
-                        android:textAppearance="@style/StatisticsTitle"
-                        app:layout_constraintBottom_toBottomOf="@+id/totalExercisesValue"
-                        app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toTopOf="@+id/totalExercisesValue" />
-
-                    <TextView
-                        android:id="@+id/totalExercisesValue"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="16dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/app_name"
-                        android:textAppearance="@style/StatisticsValue"
-                        app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toBottomOf="@+id/exercisesGroupTitle"
-                        tools:text="9.999" />
-
-                    <TextView
-                        android:id="@+id/practicedExercisesTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_practiced"
-                        android:textAppearance="@style/StatisticsTitle"
-                        app:layout_constraintBottom_toBottomOf="@+id/practicedExercisesValue"
-                        app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toTopOf="@+id/practicedExercisesValue" />
-
-                    <TextView
-                        android:id="@+id/practicedExercisesValue"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="8dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/app_name"
-                        android:textAppearance="@style/StatisticsValue"
-                        app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toBottomOf="@+id/totalExercisesValue"
-                        tools:text="9.999" />
-
-                    <TextView
-                        android:id="@+id/nonPracticedExercisesTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_non_practiced"
-                        android:textAppearance="@style/StatisticsTitle"
-                        app:layout_constraintBottom_toBottomOf="@+id/nonPracticedExercisesValue"
-                        app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toTopOf="@+id/nonPracticedExercisesValue" />
-
-                    <TextView
-                        android:id="@+id/nonPracticedExercisesValue"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="8dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/app_name"
-                        android:textAppearance="@style/StatisticsValue"
-                        app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toBottomOf="@+id/practicedExercisesValue"
-                        tools:text="9.999" />
-
-                    <TextView
-                        android:id="@+id/percentagePracticedExercisesTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_percentage_practiced"
-                        android:textAppearance="@style/StatisticsTitle"
-                        app:layout_constraintBottom_toBottomOf="@+id/percentagePracticedExercisesValue"
-                        app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toTopOf="@+id/percentagePracticedExercisesValue" />
-
-                    <TextView
-                        android:id="@+id/percentagePracticedExercisesValue"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="8dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/app_name"
-                        android:textAppearance="@style/StatisticsValue"
-                        app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide2"
-                        app:layout_constraintTop_toBottomOf="@+id/nonPracticedExercisesValue"
-                        tools:text="80%" />
-
-                    <Space
-                        android:id="@+id/space"
-                        android:layout_width="match_parent"
-                        android:layout_height="16dp"
-                        android:layout_marginTop="16dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/exercisesSeparator" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
-            </androidx.cardview.widget.CardView>
+                app:layout_constraintTop_toBottomOf="@+id/cardViewAttempts" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

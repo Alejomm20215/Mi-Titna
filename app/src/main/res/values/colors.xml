@@ -10,6 +10,9 @@
 
     <!--backgrounds-->
     <color name="splash_screen">#291108</color>
+    <color name="containerconfi">#BC9CB859</color>
+    <color name="containerhome">#DD0B1E07</color>
+    <color name="memorycontainer">#D0D2E0F1</color>
 
     <!--Custom view-->
     <color name="empty_view">#848484</color>
