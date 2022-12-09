@@ -13,7 +13,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.mititna.R
 import com.example.mititna.databinding.FragmentResultBinding
-import com.example.mititna.helper.getResultViewModelFactory
+import com.example.mititna.data.helper.getResultViewModelFactory
 
 
 class ResultFragment : Fragment() {

@@ -2,14 +2,13 @@ package com.example.mititna
 
 import android.app.Application
 import com.example.mititna.data.Repository
-import com.example.mititna.helper.ServiceLocator
-import com.example.mititna.helper.TimeUtils
+import com.example.mititna.data.helper.ServiceLocator
+import com.example.mititna.data.helper.TimeUtils
 import java.util.*
 
 
 class App : Application() {
 
-    // Depends on the flavor,
     val repository: Repository
         get() = ServiceLocator.provideRepository(this, Modules.MODULE_1.module)
 

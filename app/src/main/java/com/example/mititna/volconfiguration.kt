@@ -8,10 +8,12 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mititna.data.local.db.AppDatabase
 import com.example.mititna.databinding.ActivityVolconfigurationBinding
 
 class volconfiguration : AppCompatActivity() {
 
+    private lateinit var appDb : AppDatabase
     private var mMediaPlayer: MediaPlayer? = null
     private lateinit var binding: ActivityVolconfigurationBinding
 
@@ -20,6 +22,7 @@ class volconfiguration : AppCompatActivity() {
         binding = ActivityVolconfigurationBinding.inflate(layoutInflater)
         setContentView(binding.root)
         playSound()
+
         val am = getSystemService(Context.AUDIO_SERVICE) as AudioManager
         var maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC)
 

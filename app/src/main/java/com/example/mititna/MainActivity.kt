@@ -8,11 +8,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.example.mititna.data.local.db.AppDatabase
+import com.example.mititna.data.model.db.User
 import com.example.mititna.databinding.ActivityMainBinding
 import np.com.susanthapa.curved_bottom_navigation.CbnMenuItem
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var appDb : AppDatabase
     private var mMediaPlayer : MediaPlayer? = null
     private lateinit var binding: ActivityMainBinding
 
@@ -102,6 +105,10 @@ class MainActivity : AppCompatActivity() {
             mMediaPlayer!!.release()
             mMediaPlayer = null
         }
+    }
+
+    private suspend fun displayData(user: User){
+
     }
 
 }

@@ -1,4 +1,4 @@
-package com.example.mititna.helper
+package com.example.mititna.data.helper
 
 import androidx.fragment.app.Fragment
 import com.example.mititna.App

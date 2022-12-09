@@ -13,8 +13,8 @@ import com.example.mititna.data.local.db.dao.QuestionDao
 import com.example.mititna.data.model.db.Exercise
 import com.example.mititna.data.model.db.Lesson
 import com.example.mititna.data.model.db.Question
-import com.example.mititna.helper.Converters
-import com.example.mititna.helper.ParseJsonDataFile
+import com.example.mititna.data.helper.Converters
+import com.example.mititna.data.helper.ParseJsonDataFile
 import java.util.concurrent.Executors
 
 
@@ -25,6 +25,7 @@ import java.util.concurrent.Executors
 )
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
+
     abstract fun exerciseDao(): ExerciseDao
 
     abstract fun lessonDao(): LessonDao

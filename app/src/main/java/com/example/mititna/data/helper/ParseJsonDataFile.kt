@@ -1,4 +1,4 @@
-package com.example.mititna.helper
+package com.example.mititna.data.helper
 
 import android.annotation.SuppressLint
 import android.content.Context

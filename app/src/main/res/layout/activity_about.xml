@@ -7,7 +7,7 @@
     android:background="@drawable/fondoawa"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    tools:context=".AboutAct">
+    tools:context=".ui.fragments.AboutAct">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"

@@ -1,4 +1,4 @@
-package com.example.mititna
+package com.example.mititna.ui.games
 
 import android.content.Intent
 import android.media.MediaPlayer
@@ -7,6 +7,7 @@ import android.view.WindowManager
 import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mititna.R
 import com.example.mititna.databinding.ActivityMainMemoryBinding
 import kotlinx.android.synthetic.main.activity_main_memory.*
 

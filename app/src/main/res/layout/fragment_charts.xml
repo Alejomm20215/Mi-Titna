@@ -98,8 +98,7 @@
                         android:background="@color/statistics_line_separator"
                         app:layout_constraintBottom_toBottomOf="@+id/timePracticingValue"
                         app:layout_constraintEnd_toEndOf="@+id/attemptsGroupTitle"
-                        app:layout_constraintStart_toStartOf="@+id/attemptsGroupTitle"
-                        app:layout_constraintTop_toTopOf="@+id/totalAttemptsValue" />
+                        app:layout_constraintStart_toStartOf="@+id/attemptsGroupTitle" />
 
                     <TextView
                         android:id="@+id/attemptsGroupTitle"
@@ -113,30 +112,6 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/totalAttemptsTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
-                        android:gravity="center_horizontal"
-                        android:text="@string/title_statistics_total"
-                        android:textAppearance="@style/StatisticsTitle"
-                        app:layout_constraintBottom_toBottomOf="@+id/totalAttemptsValue"
-                        app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
-                        app:layout_constraintTop_toTopOf="@+id/totalAttemptsValue" />
-
-                    <TextView
-                        android:id="@+id/totalAttemptsValue"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="16dp"
-                        android:gravity="center_horizontal"
-                        android:textAppearance="@style/StatisticsValue"
-                        app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide1"
-                        app:layout_constraintTop_toBottomOf="@+id/attemptsGroupTitle"
-                        tools:text="9.999" />
 
                     <TextView
                         android:id="@+id/correctAttemptsTitle"
@@ -155,11 +130,10 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        android:layout_marginTop="8dp"
                         android:gravity="center_horizontal"
                         android:textAppearance="@style/StatisticsValue"
                         app:layout_constraintStart_toStartOf="@+id/verticalCenterGuide1"
-                        app:layout_constraintTop_toBottomOf="@+id/totalAttemptsValue"
+                        app:layout_constraintTop_toBottomOf="@+id/attemptsGroupTitle"
                         tools:text="9.999" />
 
                     <TextView

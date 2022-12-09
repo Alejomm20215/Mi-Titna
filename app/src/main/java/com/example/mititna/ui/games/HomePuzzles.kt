@@ -1,10 +1,12 @@
-package com.example.mititna
+package com.example.mititna.ui.games
 
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mititna.MainActivity
+import com.example.mititna.R
 import com.example.mititna.databinding.ActivityHomePuzzlesBinding
 
 class HomePuzzles : AppCompatActivity() {

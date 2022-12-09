@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/comunidadawaedit_min"
-    tools:context=".HomePuzzles">
+    tools:context=".ui.games.HomePuzzles">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container"

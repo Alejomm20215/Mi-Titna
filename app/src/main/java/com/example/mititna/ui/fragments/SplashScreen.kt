@@ -1,4 +1,4 @@
-package com.example.mititna
+package com.example.mititna.ui.fragments
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
+import com.example.mititna.MainActivity
+import com.example.mititna.R
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {

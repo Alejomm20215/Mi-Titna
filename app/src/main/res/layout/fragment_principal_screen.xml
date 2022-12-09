@@ -23,13 +23,17 @@
 
         <TextView
             android:id="@+id/a_trabajar"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
             android:fontFamily="@font/alata"
             android:text="@string/hello_user"
             android:textAlignment="center"
             android:textColor="@color/button_task_continue"
-            android:textSize="32sp"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view3" />
@@ -38,39 +42,34 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:text="@string/what_r_y"
             android:textColor="@color/button_task_continue"
             android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/boxnice"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/a_trabajar" />
 
-        <View
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/view3"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/circular_shape_1"
+            android:layout_marginTop="64dp"
+            android:background="@mipmap/ic_launcher"
+            app:layout_constraintBottom_toTopOf="@+id/a_trabajar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:backgroundTint="@color/button_task_continue"
-            android:src="@drawable/ic_baseline_person_24"
-            app:layout_constraintBottom_toTopOf="@+id/a_trabajar"
-            app:layout_constraintEnd_toEndOf="@+id/view3"
-            app:layout_constraintStart_toStartOf="@+id/view3"
-            app:layout_constraintTop_toTopOf="@+id/view3" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48000002"
+            app:shapeAppearanceOverlay="@style/circular_shape"
+            app:srcCompat="@drawable/mititnalogo" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/boxnice"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/background_shape_1"
             android:orientation="vertical"
             android:paddingLeft="30dp"
@@ -359,7 +358,7 @@
                 android:layout_width="45dp"
                 android:layout_height="59dp"
                 android:fontFamily="@font/alata"
-                android:text="@string/user"
+                android:text="%"
                 android:textAlignment="center"
                 android:textColor="#2B1B1B"
                 android:textSize="30sp"

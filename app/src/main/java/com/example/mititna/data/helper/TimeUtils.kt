@@ -1,4 +1,4 @@
-package com.example.mititna.helper
+package com.example.mititna.data.helper
 
 import java.text.ParseException
 import java.text.SimpleDateFormat

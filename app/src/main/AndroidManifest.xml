@@ -23,7 +23,7 @@
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/NoActionBar"
-        android:name=".HomePuzzles"
+        android:name=".ui.games.HomePuzzles"
         android:exported="false"
         android:label="@string/title_homepuzzles">
         <meta-data
@@ -35,7 +35,7 @@
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/NoActionBar"
-            android:name=".MainMemory"
+            android:name=".ui.games.MainMemory"
             android:exported="false"
             android:label="@string/title_main_puz">
             <meta-data
@@ -57,7 +57,7 @@
         <activity
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
-            android:name=".AboutAct"
+            android:name=".ui.fragments.AboutAct"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -112,7 +112,7 @@
         <activity
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
-            android:name=".SplashScreen"
+            android:name=".ui.fragments.SplashScreen"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>

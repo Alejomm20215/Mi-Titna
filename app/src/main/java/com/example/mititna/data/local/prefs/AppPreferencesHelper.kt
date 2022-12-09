@@ -2,7 +2,7 @@ package com.example.mititna.data.local.prefs
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.example.mititna.helper.TimeUtils
+import com.example.mititna.data.helper.TimeUtils
 import java.util.*
 
 class AppPreferencesHelper private constructor(

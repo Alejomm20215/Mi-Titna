@@ -1,5 +1,6 @@
 package com.example.mititna.ui.fragments
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +8,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.mititna.*
+import com.example.mititna.data.local.db.AppDatabase
 import com.example.mititna.databinding.FragmentPrincipalScreenBinding
 
 class PrincipalScreenFragment : Fragment() {
 
+    private lateinit var appDb: AppDatabase
     private lateinit var binding : FragmentPrincipalScreenBinding
+    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -19,6 +23,7 @@ class PrincipalScreenFragment : Fragment() {
     ): View {
         binding  = FragmentPrincipalScreenBinding.inflate(layoutInflater)
         clickListeners()
+
         return binding.root
     }
 

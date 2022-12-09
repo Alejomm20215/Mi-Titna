@@ -1,4 +1,4 @@
-package com.example.mititna.helper
+package com.example.mititna.data.helper
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

@@ -13,7 +13,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.mititna.R
 import com.example.mititna.databinding.FragmentQuizBinding
-import com.example.mititna.helper.getViewModelFactory
+import com.example.mititna.data.helper.getViewModelFactory
 import com.example.mititna.ui.quiz.result.ResultViewModel
 
 class QuizFragment : Fragment() {

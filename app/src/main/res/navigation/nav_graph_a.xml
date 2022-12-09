@@ -22,7 +22,7 @@
     <fragment
         android:id="@+id/navigation_games"
         android:label="@string/games"
-        android:name="com.example.mititna.GamesFragment"
+        android:name="com.example.mititna.ui.fragments.GamesFragment"
         tools:layout="@layout/fragment_games"
         />
 

@@ -1,4 +1,4 @@
-package com.example.mititna
+package com.example.mititna.ui.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.mititna.ui.games.HomePuzzles
 import com.example.mititna.databinding.FragmentGamesBinding
 
 

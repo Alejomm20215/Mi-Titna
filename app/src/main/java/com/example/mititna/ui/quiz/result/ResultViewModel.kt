@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.mititna.data.Repository
 import com.example.mititna.databinding.ActivityMainBinding
-import com.example.mititna.helper.TimeUtils
+import com.example.mititna.data.helper.TimeUtils
 import com.example.mititna.ui.quiz.QuizViewModel
 import kotlinx.coroutines.launch
 
@@ -66,6 +66,9 @@ class ResultViewModel(
                     TimeUtils.subtractDates(TimeUtils.getCurrentDate(), lastPracticeDate)
                 if(differenceOfDays == 0) {
                     todayStreakDone = true
+                    if(todayStreakDone){
+
+                    }
                 }
             }
         }

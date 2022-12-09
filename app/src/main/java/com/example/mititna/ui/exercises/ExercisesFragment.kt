@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mititna.R
 import com.example.mititna.databinding.FragmentExercisesBinding
-import com.example.mititna.helper.getViewModelFactory
+import com.example.mititna.data.helper.getViewModelFactory
 
 class ExercisesFragment : Fragment() {
 

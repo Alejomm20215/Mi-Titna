@@ -7,11 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.example.mititna.data.helper.getViewModelFactory
 import com.example.mititna.databinding.FragmentLessonsBinding
-import com.example.mititna.helper.getViewModelFactory
 
 
 class LessonsFragment : Fragment() {
@@ -20,12 +19,12 @@ class LessonsFragment : Fragment() {
 
     private lateinit var dataBinding: FragmentLessonsBinding
 
-    private val args: com.example.mititna.ui.lessons.LessonsFragmentArgs by navArgs()
+    private val args: LessonsFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         dataBinding = FragmentLessonsBinding.inflate(inflater, container, false).apply {
             viewmodel = viewModel
         }
@@ -48,18 +47,18 @@ class LessonsFragment : Fragment() {
 
     private fun openQuizFragment() {
         val action =
-            com.example.mititna.ui.lessons.LessonsFragmentDirections.actionLessonsFragmentToQuizFragment(
+            LessonsFragmentDirections.actionLessonsFragmentToQuizFragment(
                 args.exerciseId
             )
         findNavController().navigate(action)
     }
 
     private fun setupLiveObservers() {
-        viewModel.lessons.observe(this.viewLifecycleOwner, Observer { lessons ->
+        viewModel.lessons.observe(this.viewLifecycleOwner) { lessons ->
             if (lessons.isNotEmpty()) {
                 viewModel.setupLesson()
             }
-        })
+        }
     }
 
 
