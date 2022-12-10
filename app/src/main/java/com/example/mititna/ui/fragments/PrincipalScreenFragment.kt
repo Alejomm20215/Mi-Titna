@@ -25,21 +25,29 @@ class PrincipalScreenFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         mediaPlayer = MediaPlayer.create(context, R.raw.marimbacompressed)
+
         binding  = FragmentPrincipalScreenBinding.inflate(layoutInflater)
         clickListeners()
 
 
-        if(mediaPlayer.isPlaying) {
-            binding.playMusic.setImageResource(R.drawable.ic_baseline_pause_circle_filled_24)
-            mediaPlayer.start()
-        } else {
-            binding.playMusic.setImageResource(R.drawable.ic_baseline_play_circle_filled_24)
-            mediaPlayer.pause()
+        binding.playMusic.setOnClickListener {
+            if(mediaPlayer.isPlaying) {
+                binding.playMusic.setImageResource(R.drawable.ic_baseline_play_circle_filled_24)
+                pauseSound()
+            } else {
+                binding.playMusic.setImageResource(R.drawable.ic_baseline_pause_circle_filled_24)
+                playSound()
+            }
         }
 
         return binding.root
     }
 
+    fun playSound() {
+        mediaPlayer.start()
+    }
+    fun pauseSound() {
+        if (mediaPlayer.isPlaying) mediaPlayer.pause() }
 
     private fun clickListeners(){
         //Activity change click listeners

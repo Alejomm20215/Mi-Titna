@@ -3,6 +3,7 @@ package com.example.mititna
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mititna.databinding.ActivityAudioMod3Binding
 import com.example.mititna.ui.modules.audiomod.AudioModules
@@ -17,6 +18,10 @@ class AudioMod3 : AppCompatActivity() {
         binding = ActivityAudioMod3Binding.inflate(layoutInflater)
         setContentView(binding.root)
         clickListeners()
+        val window = this.window
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+        window.navigationBarColor = this.resources.getColor(R.color.bottom_nav)
     }
 
     fun stopSound() {

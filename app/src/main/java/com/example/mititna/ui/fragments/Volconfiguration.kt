@@ -26,7 +26,7 @@ class volconfiguration : AppCompatActivity() {
         playSound()
 
         val am = getSystemService(Context.AUDIO_SERVICE) as AudioManager
-        var maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC)
+        var maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC) / 2
 
 
         binding.volumeUp.setOnClickListener {
