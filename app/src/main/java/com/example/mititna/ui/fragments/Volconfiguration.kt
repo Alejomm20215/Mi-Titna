@@ -1,4 +1,4 @@
-package com.example.mititna
+package com.example.mititna.ui.fragments
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,8 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mititna.MainActivity
+import com.example.mititna.R
 import com.example.mititna.data.local.db.AppDatabase
 import com.example.mititna.databinding.ActivityVolconfigurationBinding
 

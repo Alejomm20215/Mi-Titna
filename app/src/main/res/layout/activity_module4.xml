@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#02062E"
     app:layoutDescription="@xml/activity_modules_scene"
-    tools:context=".Module4">
+    tools:context=".ui.modules.Module4">
 
     <View
         android:id="@+id/desc"

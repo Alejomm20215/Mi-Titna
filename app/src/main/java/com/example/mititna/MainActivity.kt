@@ -9,7 +9,6 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.mititna.data.local.db.AppDatabase
-import com.example.mititna.data.model.db.User
 import com.example.mititna.databinding.ActivityMainBinding
 import np.com.susanthapa.curved_bottom_navigation.CbnMenuItem
 
@@ -24,7 +23,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        playSound()
 
         val activeIndex = savedInstanceState?.getInt("activeIndex") ?: 2
         val navController = findNavController(R.id.nav_host_fragment)
@@ -80,24 +78,7 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         finish()
     }
-    private fun playSound(){
-        if(mMediaPlayer == null){
-            mMediaPlayer = MediaPlayer.create(this, R.raw.marimbacompressed)
-            mMediaPlayer!!.isLooping = true
-            mMediaPlayer?.start()
-        } else mMediaPlayer?.start()
-    }
-    fun pauseSound() {
-        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
-    }
 
-    fun stopSound() {
-        if (mMediaPlayer != null) {
-            mMediaPlayer!!.stop()
-            mMediaPlayer!!.release()
-            mMediaPlayer = null
-        }
-    }
 
     override fun onStop() {
         super.onStop()
@@ -105,10 +86,6 @@ class MainActivity : AppCompatActivity() {
             mMediaPlayer!!.release()
             mMediaPlayer = null
         }
-    }
-
-    private suspend fun displayData(user: User){
-
     }
 
 }

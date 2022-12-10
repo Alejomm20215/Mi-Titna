@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mititna">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
@@ -18,103 +17,155 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
-
         <activity
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
+            android:name=".AudioMod5"
+            android:exported="false"
             android:theme="@style/NoActionBar"
-        android:name=".ui.games.HomePuzzles"
-        android:exported="false"
-        android:label="@string/title_homepuzzles">
-        <meta-data
-            android:name="android.app.lib_name"
-            android:value="" />
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
-
         <activity
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
+            android:name=".AudioMod4"
+            android:exported="false"
             android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AudioMod3"
+            android:exported="false"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AudioMod2"
+            android:exported="false"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Audiomod1"
+            android:exported="false"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.modules.audiomod.AudioModules"
+            android:exported="false"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.games.HomePuzzles"
+            android:exported="false"
+            android:label="@string/title_homepuzzles"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ui.games.MainMemory"
             android:exported="false"
-            android:label="@string/title_main_puz">
+            android:label="@string/title_main_puz"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
-            android:name=".volconfiguration"
+            android:name=".ui.fragments.volconfiguration"
             android:exported="false"
             android:label="@string/title_activity_volconfiguration"
-            android:theme="@style/NoActionBar">
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
             android:name=".ui.fragments.AboutAct"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
+            android:name=".ui.modules.Module5"
+            android:exported="false"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
-            android:name=".Module5"
-            android:exported="false">
+            tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
+            android:name=".ui.modules.Module4"
+            android:exported="false"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
-            android:name=".Module4"
-            android:exported="false">
+            tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
+            android:name=".ui.modules.Module3"
+            android:exported="false"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
-            android:name=".Module3"
-            android:exported="false">
+            tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
+            android:name=".ui.modules.Module2"
+            android:exported="false"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
-            android:name=".Module2"
-            android:exported="false">
+            tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
+            android:name=".ui.modules.Module_1"
+            android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
-            android:name=".Module_1"
-            android:exported="true" />
+            tools:ignore="LockedOrientationActivity" />
         <activity
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
             android:name=".MainActivity"
-            android:exported="true" />
-        <activity
+            android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
             android:name=".ui.fragments.SplashScreen"
             android:exported="true"
-            android:theme="@style/SplashTheme">
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

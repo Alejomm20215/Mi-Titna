@@ -1,21 +1,24 @@
-package com.example.mititna
+package com.example.mititna.ui.modules
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mititna.databinding.ActivityModule3Binding
+import com.example.mititna.MainActivity
+import com.example.mititna.R
+import com.example.mititna.databinding.ActivityModulesBinding
 
-class Module3 : AppCompatActivity() {
-    private lateinit var binding: ActivityModule3Binding
+class Module_1 : AppCompatActivity() {
+
+    private lateinit var binding: ActivityModulesBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityModule3Binding.inflate(layoutInflater)
+        binding = ActivityModulesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.btnBack.setOnClickListener{
-            val intent = Intent(this@Module3, MainActivity::class.java)
+            val intent = Intent(this@Module_1, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -31,13 +34,9 @@ class Module3 : AppCompatActivity() {
     @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         super.onBackPressed()
-        val intent = Intent(this@Module3, MainActivity::class.java)
+        val intent = Intent(this@Module_1, MainActivity::class.java)
         startActivity(intent)
         finish()
     }
 
-    override fun onStop() {
-        super.onStop()
-        finish()
-    }
 }

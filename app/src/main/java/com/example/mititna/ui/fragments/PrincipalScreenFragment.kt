@@ -2,18 +2,21 @@ package com.example.mititna.ui.fragments
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.mititna.*
-import com.example.mititna.data.local.db.AppDatabase
 import com.example.mititna.databinding.FragmentPrincipalScreenBinding
+import com.example.mititna.ui.modules.*
+import com.example.mititna.ui.modules.audiomod.AudioModules
+import kotlinx.android.synthetic.main.fragment_principal_screen.view.*
 
 class PrincipalScreenFragment : Fragment() {
 
-    private lateinit var appDb: AppDatabase
+    private lateinit var mediaPlayer: MediaPlayer
     private lateinit var binding : FragmentPrincipalScreenBinding
     @SuppressLint("SetTextI18n")
     override fun onCreateView(
@@ -21,15 +24,24 @@ class PrincipalScreenFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        mediaPlayer = MediaPlayer.create(context, R.raw.marimbacompressed)
         binding  = FragmentPrincipalScreenBinding.inflate(layoutInflater)
         clickListeners()
+
+
+        if(mediaPlayer.isPlaying) {
+            binding.playMusic.setImageResource(R.drawable.ic_baseline_pause_circle_filled_24)
+            mediaPlayer.start()
+        } else {
+            binding.playMusic.setImageResource(R.drawable.ic_baseline_play_circle_filled_24)
+            mediaPlayer.pause()
+        }
 
         return binding.root
     }
 
+
     private fun clickListeners(){
-
-
         //Activity change click listeners
         binding.chartContainer2.setOnClickListener {
             val intent = Intent(this@PrincipalScreenFragment.requireContext(), AboutAct::class.java)
@@ -55,6 +67,9 @@ class PrincipalScreenFragment : Fragment() {
         binding.module5.setOnClickListener {
             val intent = Intent(this@PrincipalScreenFragment.requireContext(), Module5::class.java)
             startActivity(intent)
+        }
+        binding.moduleaud.setOnClickListener {
+            startActivity(Intent(this@PrincipalScreenFragment.requireContext(), AudioModules::class.java))
         }
     }
 }

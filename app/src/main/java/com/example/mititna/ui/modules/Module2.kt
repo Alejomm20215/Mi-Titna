@@ -1,9 +1,11 @@
-package com.example.mititna
+package com.example.mititna.ui.modules
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mititna.MainActivity
+import com.example.mititna.R
 import com.example.mititna.databinding.ActivityModule2Binding
 
 class Module2 : AppCompatActivity() {

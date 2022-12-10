@@ -255,5 +255,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="configuraci_n">Configuración</string>
     <string name="name">Name</string>
+    <string name="entrena_t_o_do">Entrena tú oído</string>
+    <string name="emociones">Emociones:</string>
 
 </resources>

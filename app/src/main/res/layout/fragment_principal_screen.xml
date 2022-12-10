@@ -310,7 +310,7 @@
             </HorizontalScrollView>
 
             <View
-                android:id="@+id/chartContainer"
+                android:id="@+id/moduleaud"
                 android:layout_width="200dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="8dp"
@@ -326,7 +326,7 @@
                 android:layout_height="100dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/chart_cont_a_b"
-                app:layout_constraintBottom_toBottomOf="@+id/chartContainer"
+                app:layout_constraintBottom_toBottomOf="@+id/moduleaud"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ya_progr" />
 
@@ -341,31 +341,21 @@
                 app:layout_constraintStart_toStartOf="@+id/chartContainer2"
                 app:layout_constraintTop_toTopOf="@+id/chartContainer2" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="66dp"
-                android:layout_height="68dp"
-                android:contentDescription="@string/app_name"
-                app:layout_constraintBottom_toBottomOf="@+id/chartContainer"
-                app:layout_constraintEnd_toEndOf="@+id/chartContainer"
-                app:layout_constraintStart_toEndOf="@+id/streak_day2"
-                app:layout_constraintTop_toTopOf="@+id/chartContainer"
-                app:srcCompat="@drawable/fire_icon"
-                tools:ignore="ImageContrastCheck" />
-
             <TextView
                 android:id="@+id/streak_day2"
-                android:layout_width="45dp"
-                android:layout_height="59dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:fontFamily="@font/alata"
-                android:text="%"
+                android:text="Audios"
                 android:textAlignment="center"
                 android:textColor="#2B1B1B"
                 android:textSize="30sp"
-                app:layout_constraintBottom_toBottomOf="@+id/chartContainer"
-                app:layout_constraintEnd_toEndOf="@+id/chartContainer"
-                app:layout_constraintStart_toStartOf="@+id/chartContainer"
-                app:layout_constraintTop_toTopOf="@+id/chartContainer" />
+                app:layout_constraintBottom_toBottomOf="@+id/moduleaud"
+                app:layout_constraintEnd_toEndOf="@+id/moduleaud"
+                app:layout_constraintStart_toStartOf="@+id/moduleaud"
+                app:layout_constraintTop_toTopOf="@+id/moduleaud"
+                app:layout_constraintVertical_bias="1.0" />
 
             <TextView
                 android:id="@+id/Tus_caminos"
@@ -392,6 +382,35 @@
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/play_music"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/ic_baseline_play_circle_filled_24"
+            app:layout_constraintBottom_toTopOf="@+id/a_trabajar"
+            app:layout_constraintEnd_toStartOf="@+id/view3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/pause_music"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/ic_baseline_pause_circle_filled_24"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/a_trabajar"
+            app:layout_constraintEnd_toStartOf="@+id/view3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
