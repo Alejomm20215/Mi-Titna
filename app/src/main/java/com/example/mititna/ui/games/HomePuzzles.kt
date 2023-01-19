@@ -43,17 +43,6 @@ class HomePuzzles : AppCompatActivity() {
         startActivity(Intent(this, MainActivity::class.java))
         finish()
     }
-    fun pauseSound() {
-        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
-    }
-
-    fun stopSound() {
-        if (mMediaPlayer != null) {
-            mMediaPlayer!!.stop()
-            mMediaPlayer!!.release()
-            mMediaPlayer = null
-        }
-    }
 
     override fun onStop() {
         super.onStop()

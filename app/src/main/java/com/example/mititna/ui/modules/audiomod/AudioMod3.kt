@@ -1,21 +1,21 @@
-package com.example.mititna
+package com.example.mititna.ui.modules.audiomod
 
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mititna.databinding.ActivityAudioMod4Binding
-import com.example.mititna.ui.modules.audiomod.AudioModules
+import com.example.mititna.R
+import com.example.mititna.databinding.ActivityAudioMod3Binding
 
-class AudioMod4 : AppCompatActivity() {
+class AudioMod3 : AppCompatActivity() {
 
+    private lateinit var binding : ActivityAudioMod3Binding
     private var mMediaPlayer: MediaPlayer? = null
-    private lateinit var binding : ActivityAudioMod4Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityAudioMod4Binding.inflate(layoutInflater)
+        binding = ActivityAudioMod3Binding.inflate(layoutInflater)
         setContentView(binding.root)
         clickListeners()
         val window = this.window
@@ -23,40 +23,43 @@ class AudioMod4 : AppCompatActivity() {
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
         window.navigationBarColor = this.resources.getColor(R.color.bottom_nav)
     }
-    private fun clickListeners() {
+
+    private fun stopSound() {
+        if (mMediaPlayer != null) {
+            mMediaPlayer!!.stop()
+            mMediaPlayer!!.release()
+            mMediaPlayer = null
+        }
+    }
+    private fun pauseSound() {
+        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
+    }
+
+    private fun clickListeners(){
         binding.backviewmod.setOnClickListener {
             startActivity(Intent(this, AudioModules::class.java))
             finish()
         }
-        binding.palabrascot.setOnClickListener {
+        //Medicinal Plants
+        binding.Saludo1.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionesbasicas)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.plantasmedicinales)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.pronombresp.setOnClickListener {
-            //Stop previous sound
-            pauseSound()
-            stopSound()
-            //Start sound
-            if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.pronombrespersonales)
-                mMediaPlayer!!.isLooping = false
-                mMediaPlayer!!.start()
-            } else mMediaPlayer!!.start()
-        }
+        //Animals
         binding.module1.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.palabrascotidianas)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.animales)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -67,7 +70,7 @@ class AudioMod4 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescotidianas)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.animalesdomesticos)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -78,32 +81,34 @@ class AudioMod4 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescotidianas2)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.reptiles)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.module3a.setOnClickListener {
+        binding.module1s.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescotidianas3)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.reptiles2)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-    }
-    fun stopSound() {
-        if (mMediaPlayer != null) {
-            mMediaPlayer!!.stop()
-            mMediaPlayer!!.release()
-            mMediaPlayer = null
+        //Lunar phases
+        binding.module1b.setOnClickListener {
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.faseslunares)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
         }
-    }
-    fun pauseSound() {
-        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
     }
     override fun onBackPressed() {
         super.onBackPressed()

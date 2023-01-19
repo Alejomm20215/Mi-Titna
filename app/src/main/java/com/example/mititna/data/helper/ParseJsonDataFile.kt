@@ -76,7 +76,7 @@ object ParseJsonDataFile {
             val lessonsJsonArray = exerciseJsonObject.getJSONArray("lessons")
             for (j in 0 until lessonsJsonArray.length()) {
                 val lessonJsonObject = lessonsJsonArray.getJSONObject(j)
-                val lesson = com.example.mititna.data.model.db.Lesson(
+                val lesson = Lesson(
                     id = lessonJsonObject.getString("id"),
                     exerciseId = exercise.id,
                     lessonNumber = lessonJsonObject.getInt("lesson_number"),
@@ -103,7 +103,7 @@ object ParseJsonDataFile {
             examples.add(example)
         }
 
-        return com.example.mititna.data.model.db.Examples(examples)
+        return Examples(examples)
     }
 
     private fun parseQuestionsFromExercise(
@@ -115,7 +115,7 @@ object ParseJsonDataFile {
             val quizJsonArray = exerciseJsonObject.getJSONArray("quiz")
             for (k in 0 until quizJsonArray.length()) {
                 val questionJsonObject = quizJsonArray.getJSONObject(k)
-                val question = com.example.mititna.data.model.db.Question(
+                val question = Question(
                     id = questionJsonObject.getString("id"),
                     exerciseId = exercise.id,
                     questionNumber = questionJsonObject.getInt("question_number"),

@@ -34,6 +34,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView9">
 
             <ImageView
+                android:contentDescription="@string/app_name"
                 android:id="@+id/startgame"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -53,7 +54,7 @@
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="32dp"
             android:fontFamily="@font/balsamiq_sans"
-            android:text="Aprende Jugando"
+            android:text="@string/aprende_jugando"
             android:textAlignment="center"
             android:textColor="#351C15"
             android:textSize="75sp"

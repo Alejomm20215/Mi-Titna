@@ -14,7 +14,6 @@ import np.com.susanthapa.curved_bottom_navigation.CbnMenuItem
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var appDb : AppDatabase
     private var mMediaPlayer : MediaPlayer? = null
     private lateinit var binding: ActivityMainBinding
 

@@ -68,12 +68,12 @@ class QuizFragment : Fragment() {
     }
 
     private fun setupLiveObservers() {
-        viewModel.questions.observe(viewLifecycleOwner, Observer {
+        viewModel.questions.observe(viewLifecycleOwner, {
             if (it != null && it.isNotEmpty()) {
                 viewModel.setupFirstQuestion()
             }
         })
-        viewModel.quizState.observe(viewLifecycleOwner, Observer { quizState ->
+        viewModel.quizState.observe(viewLifecycleOwner, { quizState ->
             when (quizState) {
                 QuizViewModel.QuizState.NOT_ANSWERED -> dataBinding.mcqAnswerView.rgOptions.clearCheck()
                 QuizViewModel.QuizState.COMPLETE -> openResultFragment(ResultViewModel.QuizResult.SUCCESS)
@@ -93,7 +93,7 @@ class QuizFragment : Fragment() {
 
     private fun openResultFragment(quizResult: ResultViewModel.QuizResult) {
         val action =
-            com.example.mititna.ui.quiz.QuizFragmentDirections.actionQuizFragmentToResultFragment(
+            QuizFragmentDirections.actionQuizFragmentToResultFragment(
                 /* lifeLeft = */ viewModel.lifeLeft.value ?: 0,
                 /* quizResult = */ quizResult,
                 /* exerciseId = */ args.exerciseId

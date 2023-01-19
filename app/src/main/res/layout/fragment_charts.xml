@@ -42,7 +42,7 @@
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/audiowide"
                         android:gravity="center_horizontal"
-                        android:text="Análisis Gráfico"
+                        android:text="@string/an_lisis_gr_fico"
                         android:textAppearance="@style/StatisticsGroupTitle"
                         android:textColor="#B9CCB9"
                         android:textSize="32sp"
@@ -50,7 +50,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <com.jjoe64.graphview.GraphView
+                    <com.github.mikephil.charting.charts.LineChart
                         android:id="@+id/lineChart"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
@@ -87,18 +87,22 @@
                     <androidx.constraintlayout.widget.Guideline
                         android:id="@+id/verticalCenterGuide1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
                         android:orientation="vertical"
-                        app:layout_constraintGuide_percent="0.5" />
+                        app:layout_constraintGuide_percent="0.5"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <View
                         android:id="@+id/attemptsSeparator"
                         android:layout_width="2dp"
                         android:layout_height="0dp"
+                        android:layout_marginTop="16dp"
                         android:background="@color/statistics_line_separator"
                         app:layout_constraintBottom_toBottomOf="@+id/timePracticingValue"
                         app:layout_constraintEnd_toEndOf="@+id/attemptsGroupTitle"
-                        app:layout_constraintStart_toStartOf="@+id/attemptsGroupTitle" />
+                        app:layout_constraintHorizontal_bias="0.495"
+                        app:layout_constraintStart_toStartOf="@+id/attemptsGroupTitle"
+                        app:layout_constraintTop_toBottomOf="@+id/attemptsGroupTitle" />
 
                     <TextView
                         android:id="@+id/attemptsGroupTitle"
@@ -106,7 +110,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:gravity="center_horizontal"
-                        android:text="INTENTOS"
+                        android:text="@string/intentos"
                         android:textAppearance="@style/StatisticsGroupTitle"
                         android:textColor="@color/statistics_text"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -119,7 +123,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="correcto"
+                        android:text="@string/correcto"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/correctAttemptsValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
@@ -142,7 +146,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="incorrecto"
+                        android:text="@string/incorrecto"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/incorrectAttemptsValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
@@ -166,7 +170,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="racha de suceso"
+                        android:text="@string/racha_de_suceso"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/successRateValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"
@@ -191,7 +195,7 @@
                         android:layout_marginStart="8dp"
                         android:layout_marginEnd="16dp"
                         android:gravity="center_horizontal"
-                        android:text="horas practicando"
+                        android:text="@string/horas_practicando"
                         android:textAppearance="@style/StatisticsTitle"
                         app:layout_constraintBottom_toBottomOf="@+id/timePracticingValue"
                         app:layout_constraintEnd_toStartOf="@+id/verticalCenterGuide1"

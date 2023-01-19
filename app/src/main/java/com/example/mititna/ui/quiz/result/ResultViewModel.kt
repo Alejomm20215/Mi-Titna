@@ -1,10 +1,11 @@
 package com.example.mititna.ui.quiz.result
 
+import android.os.Bundle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.mititna.data.Repository
-import com.example.mititna.databinding.ActivityMainBinding
 import com.example.mititna.data.helper.TimeUtils
+import com.example.mititna.ui.charts.Charts
 import com.example.mititna.ui.quiz.QuizViewModel
 import kotlinx.coroutines.launch
 
@@ -14,8 +15,6 @@ class ResultViewModel(
     val quizResult: QuizResult,
     lifeLeft: Int
 ) : ViewModel() {
-
-    private lateinit var binding: ActivityMainBinding
 
     // SUNDAY = 1
     // MONDAY = 2
@@ -32,6 +31,7 @@ class ResultViewModel(
 
     companion object {
         const val XP_PER_QUIZ = 10
+        val DAYS_OF_WEEK = arrayOf("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
     }
 
     val xp = XP_PER_QUIZ - (QuizViewModel.LIFELINE_PER_QUIZ - lifeLeft)
@@ -66,13 +66,26 @@ class ResultViewModel(
                     TimeUtils.subtractDates(TimeUtils.getCurrentDate(), lastPracticeDate)
                 if(differenceOfDays == 0) {
                     todayStreakDone = true
-                    if(todayStreakDone){
-
-                    }
                 }
             }
         }
 
         streakCount = repository.getStreak()
     }
+    private fun getBundle(): Bundle {
+        val bundle = Bundle()
+        bundle.putInt("dayOfWeek", dayOfWeek)
+        bundle.putBoolean("todayStreakDone", todayStreakDone)
+        bundle.putInt("streakCount", streakCount)
+        bundle.putInt("xp", xp)
+        bundle.putInt("totalXP", totalXP)
+        return bundle
+    }
+    fun createChartsFragment(): Charts {
+        val chartsFragment = Charts().apply {
+            arguments = getBundle()
+        }
+        return chartsFragment
+    }
+
 }

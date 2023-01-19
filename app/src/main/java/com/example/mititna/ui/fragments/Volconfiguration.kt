@@ -15,7 +15,6 @@ import com.example.mititna.databinding.ActivityVolconfigurationBinding
 
 class volconfiguration : AppCompatActivity() {
 
-    private lateinit var appDb : AppDatabase
     private var mMediaPlayer: MediaPlayer? = null
     private lateinit var binding: ActivityVolconfigurationBinding
 
@@ -67,17 +66,6 @@ class volconfiguration : AppCompatActivity() {
             mMediaPlayer!!.isLooping = true
             mMediaPlayer!!.start()
         } else mMediaPlayer!!.start()
-    }
-    fun pauseSound() {
-        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
-    }
-
-    fun stopSound() {
-        if (mMediaPlayer != null) {
-            mMediaPlayer!!.stop()
-            mMediaPlayer!!.release()
-            mMediaPlayer = null
-        }
     }
 
     override fun onStop() {

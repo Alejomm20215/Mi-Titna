@@ -27,7 +27,7 @@
             android:background="@{viewmodel.dayOfWeek == 1 &amp;&amp; viewmodel.todayStreakDone ? @drawable/orange_circle_outline : @drawable/grey_circle_outline}"
             android:textColor="@{viewmodel.dayOfWeek == 1 &amp;&amp; viewmodel.todayStreakDone ? @color/orange : @color/text_color_grey}"
             tools:background="@drawable/grey_circle_outline"
-            android:text="S" />
+            android:text="@string/sa" />
 
         <TextView
             android:id="@+id/tv_monday"
@@ -39,7 +39,7 @@
             android:background="@{viewmodel.dayOfWeek == 2 &amp;&amp; viewmodel.todayStreakDone ? @drawable/orange_circle_outline : @drawable/grey_circle_outline}"
             android:textColor="@{viewmodel.dayOfWeek == 2 &amp;&amp; viewmodel.todayStreakDone ? @color/orange : @color/text_color_grey}"
             tools:background="@drawable/grey_circle_outline"
-            android:text="M" />
+            android:text="@string/ma" />
 
         <TextView
             android:id="@+id/tv_tuesday"
@@ -51,7 +51,7 @@
             android:background="@{viewmodel.dayOfWeek == 3 &amp;&amp; viewmodel.todayStreakDone ? @drawable/orange_circle_outline : @drawable/grey_circle_outline}"
             android:textColor="@{viewmodel.dayOfWeek == 3 &amp;&amp; viewmodel.todayStreakDone ? @color/orange : @color/text_color_grey}"
             tools:background="@drawable/grey_circle_outline"
-            android:text="T" />
+            android:text="@string/ta" />
 
         <TextView
             android:id="@+id/tv_wednesday"
@@ -63,7 +63,7 @@
             android:background="@{viewmodel.dayOfWeek == 4 &amp;&amp; viewmodel.todayStreakDone ? @drawable/orange_circle_outline : @drawable/grey_circle_outline}"
             android:textColor="@{viewmodel.dayOfWeek == 4 &amp;&amp; viewmodel.todayStreakDone ? @color/orange : @color/text_color_grey}"
             tools:background="@drawable/grey_circle_outline"
-            android:text="W" />
+            android:text="@string/wa" />
 
         <TextView
             android:id="@+id/tv_thursday"
@@ -75,7 +75,7 @@
             android:background="@{viewmodel.dayOfWeek == 5 &amp;&amp; viewmodel.todayStreakDone ? @drawable/orange_circle_outline : @drawable/grey_circle_outline}"
             android:textColor="@{viewmodel.dayOfWeek == 5 &amp;&amp; viewmodel.todayStreakDone ? @color/orange : @color/text_color_grey}"
             tools:background="@drawable/grey_circle_outline"
-            android:text="T" />
+            android:text="@string/ta" />
 
         <TextView
             android:id="@+id/tv_friday"
@@ -87,7 +87,7 @@
             android:textColor="@{viewmodel.dayOfWeek == 6 &amp;&amp; viewmodel.todayStreakDone ? @color/orange : @color/text_color_grey}"
             android:layout_marginStart="8dp"
             tools:background="@drawable/grey_circle_outline"
-            android:text="F" />
+            android:text="@string/fa" />
 
         <TextView
             android:id="@+id/tv_saturday"
@@ -100,7 +100,7 @@
             android:textColor="@{viewmodel.dayOfWeek == 7 &amp;&amp; viewmodel.todayStreakDone ? @color/orange : @color/text_color_grey}"
             tools:background="@drawable/orange_circle_outline"
             tools:textColor="@color/text_color_grey"
-            android:text="S" />
+            android:text="@string/sa" />
     </LinearLayout>
 
 </layout>

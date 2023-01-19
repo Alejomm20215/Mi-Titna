@@ -18,6 +18,8 @@ class AppRepository (
     private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : Repository {
 
+
+
     override suspend fun insertExercises(exercises: List<Exercise>): List<Long> = withContext(ioDispatcher){
         dbHelper.insertExercises(exercises)
     }

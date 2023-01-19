@@ -62,7 +62,7 @@ class ExercisesFragment2 : Fragment() {
 
 
     private fun setupLiveObservers() {
-        viewModel.exercises.observe(viewLifecycleOwner, Observer {
+        viewModel.exercises.observe(viewLifecycleOwner, {
             exercisesAdapter.refreshData(it)
         })
     }

@@ -1,21 +1,21 @@
-package com.example.mititna
+package com.example.mititna.ui.modules.audiomod
 
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mititna.databinding.ActivityAudioMod2Binding
-import com.example.mititna.ui.modules.audiomod.AudioModules
+import com.example.mititna.R
+import com.example.mititna.databinding.ActivityAudioMod1Binding
 
-class AudioMod2 : AppCompatActivity() {
+class AudioMod1 : AppCompatActivity() {
 
     private var mMediaPlayer : MediaPlayer? = null
-    private lateinit var binding: ActivityAudioMod2Binding
+    private lateinit var binding: ActivityAudioMod1Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityAudioMod2Binding.inflate(layoutInflater)
+        binding = ActivityAudioMod1Binding.inflate(layoutInflater)
         setContentView(binding.root)
         clickListeners()
         val window = this.window
@@ -23,176 +23,109 @@ class AudioMod2 : AppCompatActivity() {
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
         window.navigationBarColor = this.resources.getColor(R.color.bottom_nav)
     }
-
-    fun clickListeners(){
+    private fun clickListeners(){
         binding.backviewmod.setOnClickListener {
-            startActivity(Intent(this, AudioModules::class.java))
+            startActivity(Intent(this@AudioMod1, AudioModules::class.java))
             finish()
         }
-        //Family
-        binding.nieto.setOnClickListener {
+        //Saludos
+        binding.Saludo1.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.nieto)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.buenasnoches)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.nieta.setOnClickListener {
+        binding.Saludo2.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.nieta)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.buenastardelluviosa)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.prima.setOnClickListener {
+        binding.Saludo3.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.prima)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.buenastardes)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.familia.setOnClickListener {
+        binding.Saludo4.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.familia)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.buendia)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.Abuelo.setOnClickListener {
+        binding.Saludo5.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.abuelo)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.diabonito)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.abuela.setOnClickListener {
+        binding.Saludo6.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.abuela)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.hastaluego)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.Mama.setOnClickListener {
+        binding.Saludo7.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.mama)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.respuestaporlanoche)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.Hermana.setOnClickListener {
+        binding.Saludo8.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.hermana)
-                mMediaPlayer!!.isLooping = false
-                mMediaPlayer!!.start()
-            } else mMediaPlayer!!.start()
-        }
-        binding.Tio.setOnClickListener {
-            //Stop previous sound
-            pauseSound()
-            stopSound()
-            //Start sound
-            if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.tio)
-                mMediaPlayer!!.isLooping = false
-                mMediaPlayer!!.start()
-            } else mMediaPlayer!!.start()
-        }
-        binding.Papa.setOnClickListener {
-            //Stop previous sound
-            pauseSound()
-            stopSound()
-            //Start sound
-            if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.papa)
-                mMediaPlayer!!.isLooping = false
-                mMediaPlayer!!.start()
-            } else mMediaPlayer!!.start()
-        }
-        binding.Hermano.setOnClickListener {
-            //Stop previous sound
-            pauseSound()
-            stopSound()
-            //Start sound
-            if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.hermano)
-                mMediaPlayer!!.isLooping = false
-                mMediaPlayer!!.start()
-            } else mMediaPlayer!!.start()
-        }
-        binding.Cunado.setOnClickListener {
-            //Stop previous sound
-            pauseSound()
-            stopSound()
-            //Start sound
-            if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.cunado)
-                mMediaPlayer!!.isLooping = false
-                mMediaPlayer!!.start()
-            } else mMediaPlayer!!.start()
-        }
-        binding.Tia.setOnClickListener {
-            //Stop previous sound
-            pauseSound()
-            stopSound()
-            //Start sound
-            if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.tia)
-                mMediaPlayer!!.isLooping = false
-                mMediaPlayer!!.start()
-            } else mMediaPlayer!!.start()
-        }
-        binding.Bisabuela.setOnClickListener {
-            //Stop previous sound
-            pauseSound()
-            stopSound()
-            //Start sound
-            if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.bisabuela)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.hastaelotrodia)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
 
-        //Emotions
+        //Numbers
         binding.module1.setOnClickListener {
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.risa)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.uno)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -203,7 +136,7 @@ class AudioMod2 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.triste)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.dos)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -214,7 +147,7 @@ class AudioMod2 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.verguenza)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.tres)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -225,60 +158,133 @@ class AudioMod2 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.feliz)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.cuatro)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.module2q.setOnClickListener {
+
+        //Colors
+        binding.module1b.setOnClickListener{
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.cantarppf)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.amarillo)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.module3q.setOnClickListener {
+        binding.module2b.setOnClickListener{
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.aburrido)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.azul)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
-        binding.module4q.setOnClickListener {
+        binding.module3b.setOnClickListener{
             //Stop previous sound
             pauseSound()
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.contento)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.blanco)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
+        }
+        binding.module4b.setOnClickListener{
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.cafe)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
+        }
+        binding.module5b.setOnClickListener{
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.gris)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
+        }
+        binding.module1b1.setOnClickListener{
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.morado)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
+        }
+        binding.module2b1.setOnClickListener{
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.negro)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
+        }
+        binding.module3b1.setOnClickListener{
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.rojo)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
+        }
+        binding.module4b1.setOnClickListener{
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.verde)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
     }
-
-    fun stopSound() {
+    private fun stopSound() {
         if (mMediaPlayer != null) {
             mMediaPlayer!!.stop()
             mMediaPlayer!!.release()
             mMediaPlayer = null
         }
     }
-    fun pauseSound() {
+    private fun pauseSound() {
         if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
     }
-
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         super.onBackPressed()
         startActivity(Intent(this, AudioModules::class.java))
+        finish()
+        stopSound()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
         finish()
         stopSound()
     }

@@ -1,21 +1,21 @@
-package com.example.mititna
+package com.example.mititna.ui.modules.audiomod
 
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mititna.databinding.ActivityAudioMod5Binding
-import com.example.mititna.ui.modules.audiomod.AudioModules
+import com.example.mititna.R
+import com.example.mititna.databinding.ActivityAudioMod4Binding
 
-class AudioMod5 : AppCompatActivity() {
+class AudioMod4 : AppCompatActivity() {
 
-    private var  mMediaPlayer : MediaPlayer? = null
-    private lateinit var binding: ActivityAudioMod5Binding
+    private var mMediaPlayer: MediaPlayer? = null
+    private lateinit var binding : ActivityAudioMod4Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityAudioMod5Binding.inflate(layoutInflater)
+        binding = ActivityAudioMod4Binding.inflate(layoutInflater)
         setContentView(binding.root)
         clickListeners()
         val window = this.window
@@ -34,7 +34,7 @@ class AudioMod5 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescortas)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionesbasicas)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -45,7 +45,7 @@ class AudioMod5 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.personas)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.pronombrespersonales)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -56,7 +56,7 @@ class AudioMod5 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescortas2)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.palabrascotidianas)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -67,7 +67,7 @@ class AudioMod5 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescortas3)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescotidianas)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
@@ -78,29 +78,37 @@ class AudioMod5 : AppCompatActivity() {
             stopSound()
             //Start sound
             if(mMediaPlayer == null){
-                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescortas4)
+                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescotidianas2)
+                mMediaPlayer!!.isLooping = false
+                mMediaPlayer!!.start()
+            } else mMediaPlayer!!.start()
+        }
+        binding.module3a.setOnClickListener {
+            //Stop previous sound
+            pauseSound()
+            stopSound()
+            //Start sound
+            if(mMediaPlayer == null){
+                mMediaPlayer = MediaPlayer.create(this, R.raw.oracionescotidianas3)
                 mMediaPlayer!!.isLooping = false
                 mMediaPlayer!!.start()
             } else mMediaPlayer!!.start()
         }
     }
-
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        startActivity(Intent(this, AudioModules::class.java))
-        finish()
-        pauseSound()
-        stopSound()
-    }
-    fun stopSound() {
+    private fun stopSound() {
         if (mMediaPlayer != null) {
             mMediaPlayer!!.stop()
             mMediaPlayer!!.release()
             mMediaPlayer = null
         }
     }
-    fun pauseSound() {
+    private fun pauseSound() {
         if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
+    }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, AudioModules::class.java))
+        finish()
+        stopSound()
     }
 }

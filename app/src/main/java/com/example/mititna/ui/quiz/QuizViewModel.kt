@@ -1,6 +1,5 @@
 package com.example.mititna.ui.quiz
 
-import android.os.Build
 import android.text.Html
 import android.view.View
 import android.widget.RadioGroup
@@ -54,7 +53,7 @@ class QuizViewModel(
     private val _lifeLeft = MutableLiveData(LIFELINE_PER_QUIZ)
     val lifeLeft: LiveData<Int> = _lifeLeft
 
-    private val _quizState = MutableLiveData<QuizState>(QuizState.NOT_ANSWERED)
+    private val _quizState = MutableLiveData(QuizState.NOT_ANSWERED)
     val quizState: LiveData<QuizState> = _quizState
 
     /**
@@ -63,11 +62,10 @@ class QuizViewModel(
      */
     fun formatHtml(string: String?): CharSequence = when {
         string == null -> ""
-        Build.VERSION.SDK_INT >= Build.VERSION_CODES.N -> Html.fromHtml(
+        else -> Html.fromHtml(
             string,
             Html.FROM_HTML_MODE_COMPACT
         )
-        else -> Html.fromHtml(string)
     }
 
 
@@ -95,7 +93,7 @@ class QuizViewModel(
     // Click listener attached to Button(R.id.btn_check) in [fragment_quiz.xml]
     fun checkAnswer(view: View) {
         if (quizState.value == QuizState.NOT_ANSWERED) {
-            if (_userAnswer.value ?: "" == "") return
+            if ((_userAnswer.value ?: "") == "") return
 
             _numberOfQuestionAnswered.value = _numberOfQuestionAnswered.value?.plus(1)
 
@@ -112,9 +110,9 @@ class QuizViewModel(
     }
 
     private fun checkUserEnteredAnswer(): Boolean {
-        return _userAnswer.value?.lowercase(Locale.US) == question.value?.correctAnswer?.lowercase(
+        return _userAnswer.value?.lowercase(Locale.US) == (question.value?.correctAnswer?.lowercase(
             Locale.US
-        ) ?: "-1"
+        ) ?: "-1")
     }
 
     fun setupFirstQuestion() {
@@ -130,12 +128,12 @@ class QuizViewModel(
      * @return value between 0 to 100
      */
     private fun calculateProgress(questionIndex: Int): Int = when {
-        questions.value?.size ?: 0 == 0 -> 0
+        (questions.value?.size ?: 0) == 0 -> 0
         else -> (questionIndex * 100) / (questions.value?.size ?: 1)
     }
 
     private fun getCurrentQuestion(questionIndex: Int): Question? = when {
-        questions.value?.size ?: 0 == 0 -> null
+        (questions.value?.size ?: 0) == 0 -> null
         else -> questions.value!![questionIndex]
     }
 

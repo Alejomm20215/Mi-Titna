@@ -2,8 +2,10 @@ package com.example.mititna.ui.modules.audiomod
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mititna.*
+import com.example.mititna.MainActivity
+import com.example.mititna.R
 import com.example.mititna.databinding.ActivityAudioModulesBinding
 
 class AudioModules : AppCompatActivity() {
@@ -15,15 +17,21 @@ class AudioModules : AppCompatActivity() {
         binding = ActivityAudioModulesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+        window.navigationBarColor = this.resources.getColor(R.color.bottom_nav)
+
         //Activity changing listeners
         binding.backhomebtn.setOnClickListener {
             startActivity(Intent(this@AudioModules, MainActivity::class.java))
             finish()
         }
+
         binding.mod1cont.setOnClickListener {
-            startActivity(Intent(this@AudioModules, Audiomod1::class.java))
+            startActivity(Intent(this@AudioModules, AudioMod1::class.java))
             finish()
         }
+
         binding.mod2cont.setOnClickListener{
             startActivity(Intent(this@AudioModules, AudioMod2::class.java))
             finish()
@@ -42,9 +50,13 @@ class AudioModules : AppCompatActivity() {
         }
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, MainActivity::class.java))
+        finish()
+    }
     override fun onStop() {
         super.onStop()
-        startActivity(Intent(this, MainActivity::class.java))
         finish()
     }
 }

@@ -6,6 +6,8 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.sqlite.db.SupportSQLiteDatabase
+import com.example.mititna.data.helper.Converters
+import com.example.mititna.data.helper.ParseJsonDataFile
 import com.example.mititna.data.local.db.AppDatabase
 import com.example.mititna.data.local.db.dao.ExerciseDao
 import com.example.mititna.data.local.db.dao.LessonDao
@@ -13,8 +15,6 @@ import com.example.mititna.data.local.db.dao.QuestionDao
 import com.example.mititna.data.model.db.Exercise
 import com.example.mititna.data.model.db.Lesson
 import com.example.mititna.data.model.db.Question
-import com.example.mititna.data.helper.Converters
-import com.example.mititna.data.helper.ParseJsonDataFile
 import java.util.concurrent.Executors
 
 

@@ -33,8 +33,8 @@
             app:layout_constraintTop_toBottomOf="@+id/textView4">
 
             <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +61,7 @@
                         android:id="@+id/horizontalScrollView"
                         android:layout_width="0dp"
                         android:layout_height="180dp"
-                        android:layout_marginBottom="32dp"
+                        android:layout_marginBottom="24dp"
                         app:layout_constraintBottom_toTopOf="@+id/moduleaud"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -289,8 +289,7 @@
                     <View
                         android:id="@+id/moduleaud"
                         android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:layout_marginTop="16dp"
+                        android:layout_height="200dp"
                         android:layout_marginBottom="16dp"
                         android:background="@drawable/chart_container_1"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -316,10 +315,10 @@
                         android:id="@+id/question_icon2"
                         android:layout_width="0dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
                         android:contentDescription="@string/app_name"
                         android:src="@drawable/questionicon"
                         app:layout_constraintBottom_toBottomOf="@+id/chartContainer2"
@@ -342,18 +341,34 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <ImageView
+                        android:contentDescription="@string/app_name"
                         android:id="@+id/imageView16"
                         android:layout_width="0dp"
-                        android:layout_height="100dp"
+                        android:layout_height="0dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="16dp"
-                        android:layout_marginBottom="16dp"
                         android:src="@drawable/ic_baseline_hearing_24"
-                        app:layout_constraintBottom_toBottomOf="@+id/moduleaud"
+                        app:layout_constraintBottom_toTopOf="@+id/textView15"
                         app:layout_constraintEnd_toEndOf="@+id/moduleaud"
                         app:layout_constraintStart_toStartOf="@+id/moduleaud"
                         app:layout_constraintTop_toTopOf="@+id/moduleaud" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/alata"
+                        android:text="@string/escucha"
+                        android:textAlignment="center"
+                        android:textColor="#10120E"
+                        android:textSize="30sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/moduleaud"
+                        app:layout_constraintEnd_toEndOf="@+id/moduleaud"
+                        app:layout_constraintStart_toStartOf="@+id/moduleaud"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -406,6 +421,7 @@
             app:srcCompat="@drawable/mititnalogo" />
 
         <ImageView
+            android:contentDescription="@string/app_name"
             android:id="@+id/play_music"
             android:layout_width="0dp"
             android:layout_height="0dp"

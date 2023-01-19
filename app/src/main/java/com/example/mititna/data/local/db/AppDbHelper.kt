@@ -17,7 +17,7 @@ class AppDbHelper private constructor(
 
         fun getInstance(appDatabase: AppDatabase) =
             INSTANCE ?: synchronized(this) {
-                INSTANCE ?: com.example.mititna.data.local.db.AppDbHelper(
+                INSTANCE ?: AppDbHelper(
                     appDatabase
                 ).also { INSTANCE = it }
             }

@@ -25,6 +25,10 @@ class MainMemory : AppCompatActivity() {
         setContentView(binding.root)
         playSound()
 
+
+        buttons = listOf(imageButton, imageButton2, imageButton3, imageButton4, imageButton5,
+            imageButton6, imageButton7, imageButton8)
+
         val images = mutableListOf(
             R.drawable.puchavec,
             R.drawable.kut_avec,
@@ -34,17 +38,12 @@ class MainMemory : AppCompatActivity() {
         images.addAll(images)
         images.shuffle()
 
-        buttons = listOf(imageButton, imageButton2, imageButton3, imageButton4, imageButton5,
-            imageButton6, imageButton7, imageButton8)
-
         cards = buttons.indices.map { index ->
             Carta(images[index])
         }
         buttons.forEachIndexed { index, button ->
             button.setOnClickListener {
-                // Update models
                 updateModels(index)
-                // Update the UI for the game
                 updateViews()
             }
         }
@@ -65,21 +64,34 @@ class MainMemory : AppCompatActivity() {
             }
             button.setImageResource(if (card.isFaceUp) card.identifier else R.drawable.ic_home)
         }
+
     }
 
     private fun updateModels(position: Int) {
         val card = cards[position]
-        // Error checking:
         if (card.isFaceUp) {
             Toast.makeText(this, "Movimiento inválido!", Toast.LENGTH_SHORT).show()
             return
         }
+        if (cards.all { it.isMatched }) {
+            Toast.makeText(this, "Bien hecho!", Toast.LENGTH_SHORT).show()
+            val images = mutableListOf(
+                R.drawable.puchavec,
+                R.drawable.kut_avec,
+                R.drawable.kabuashivec,
+                R.drawable.urakutimavec
+            )
+            images.addAll(images)
+            images.shuffle()
+            cards = buttons.indices.map { index ->
+                Carta(images[index])
+            }
+            updateViews()
+        }
         indexOfSingleSelectedCard = if (indexOfSingleSelectedCard == null) {
-            // 0 or 2 selected cards previously
             restoreCards()
             position
         } else {
-            // exactly 1 card was selected previously
             checkForMatch(indexOfSingleSelectedCard!!, position)
             null
         }
@@ -114,17 +126,6 @@ class MainMemory : AppCompatActivity() {
         super.onBackPressed()
         startActivity(Intent(this, HomePuzzles::class.java))
         finish()
-    }
-    fun pauseSound() {
-        if (mMediaPlayer?.isPlaying == true) mMediaPlayer?.pause()
-    }
-
-    fun stopSound() {
-        if (mMediaPlayer != null) {
-            mMediaPlayer!!.stop()
-            mMediaPlayer!!.release()
-            mMediaPlayer = null
-        }
     }
 
     override fun onStop() {

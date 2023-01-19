@@ -43,10 +43,10 @@ class PrincipalScreenFragment : Fragment() {
         return binding.root
     }
 
-    fun playSound() {
+    private fun playSound() {
         mediaPlayer.start()
     }
-    fun pauseSound() {
+    private fun pauseSound() {
         if (mediaPlayer.isPlaying) mediaPlayer.pause() }
 
     private fun clickListeners(){

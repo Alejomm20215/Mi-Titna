@@ -17,13 +17,13 @@ class LessonsViewModel(
     val lesson: LiveData<Lesson> = _lesson
     private var currentLessonIndex = -1
 
-    private val _isPreviousButtonVisible = MutableLiveData<Boolean>(false)
+    private val _isPreviousButtonVisible = MutableLiveData(false)
     val isPreviousButtonVisible: LiveData<Boolean> = _isPreviousButtonVisible
 
-    private val _isNextButtonVisible = MutableLiveData<Boolean>(false)
+    private val _isNextButtonVisible = MutableLiveData(false)
     val isNextButtonVisible: LiveData<Boolean> = _isNextButtonVisible
 
-    private val _isQuizButtonEnabled = MutableLiveData<Boolean>(false)
+    private val _isQuizButtonEnabled = MutableLiveData(false)
     val isQuizButtonEnabled: LiveData<Boolean> = _isQuizButtonEnabled
 
     /**

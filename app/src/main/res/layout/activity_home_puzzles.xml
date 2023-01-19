@@ -22,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:contentDescription="@string/app_name"
             android:id="@+id/sunimg"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -43,7 +44,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/alata"
-            android:text="MI CAMINO AL RECUERDO"
+            android:text="@string/mi_camino_al_recuerdo"
             android:textAlignment="center"
             android:textColor="#DAF3D0"
             android:textSize="55sp"
@@ -62,7 +63,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/btnhomepuzzles"
             android:fontFamily="@font/archivo"
-            android:text="Comenzar"
+            android:text="@string/comenzar"
             android:textAlignment="center"
             android:textSize="34sp"
             android:textStyle="bold"
@@ -81,7 +82,7 @@
             android:layout_marginBottom="24dp"
             android:background="@drawable/btnhomepuzzles"
             android:fontFamily="@font/archivo"
-            android:text="Regresar"
+            android:text="@string/regresar"
             android:textAlignment="center"
             android:textSize="34sp"
             android:textStyle="bold"

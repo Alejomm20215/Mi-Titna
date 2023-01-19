@@ -12,15 +12,16 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.mititna.R
-import com.example.mititna.databinding.FragmentResultBinding
 import com.example.mititna.data.helper.getResultViewModelFactory
+import com.example.mititna.databinding.FragmentResultBinding
 
 
 class ResultFragment : Fragment() {
 
     private lateinit var dataBinding: FragmentResultBinding
 
-    private val args: com.example.mititna.ui.quiz.result.ResultFragmentArgs by navArgs()
+    private val args: ResultFragmentArgs by navArgs()
+
 
     private val viewModel by viewModels<ResultViewModel> {
         getResultViewModelFactory(
@@ -29,6 +30,7 @@ class ResultFragment : Fragment() {
             lifeLeft = args.lifeLeft
         )
     }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -36,8 +38,10 @@ class ResultFragment : Fragment() {
         dataBinding = FragmentResultBinding.inflate(inflater, container, false).apply {
             viewmodel = viewModel
         }
+
         return dataBinding.root
     }
+
 
     private fun removeFragment(){
         val fragment = parentFragmentManager.findFragmentById(R.id.resultFragment)
